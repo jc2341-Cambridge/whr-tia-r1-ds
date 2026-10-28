@@ -1,0 +1,150 @@
+{
+  "conformal_kappa95": {
+    "sparse": 5.619113405517408,
+    "augmented": 1.3239984080709504
+  },
+  "hours_setpoint_differs": 6256,
+  "frac_setpoint_differs": 0.7141552511415525,
+  "augmented_selection": [
+    {
+      "source_temperature": 980.0,
+      "mean_pressure": 2000.0,
+      "engine_speed": 1050.0
+    },
+    {
+      "source_temperature": 850.0,
+      "mean_pressure": 2000.0,
+      "engine_speed": 1000.0
+    },
+    {
+      "source_temperature": 850.0,
+      "mean_pressure": 2000.0,
+      "engine_speed": 600.0
+    },
+    {
+      "source_temperature": 873.15,
+      "mean_pressure": 2000.0,
+      "engine_speed": 1050.0
+    },
+    {
+      "source_temperature": 973.15,
+      "mean_pressure": 2000.0,
+      "engine_speed": 1050.0
+    },
+    {
+      "source_temperature": 848.15,
+      "mean_pressure": 1875.0,
+      "engine_speed": 1075.0
+    },
+    {
+      "source_temperature": 873.15,
+      "mean_pressure": 2000.0,
+      "engine_speed": 1000.0
+    },
+    {
+      "source_temperature": 998.15,
+      "mean_pressure": 1875.0,
+      "engine_speed": 1075.0
+    },
+    {
+      "source_temperature": 973.15,
+      "mean_pressure": 2000.0,
+      "engine_speed": 1000.0
+    },
+    {
+      "source_temperature": 848.15,
+      "mean_pressure": 2000.0,
+      "engine_speed": 700.0
+    },
+    {
+      "source_temperature": 1000.0,
+      "mean_pressure": 2000.0,
+      "engine_speed": 900.0
+    },
+    {
+      "source_temperature": 950.0,
+      "mean_pressure": 2000.0,
+      "engine_speed": 1000.0
+    },
+    {
+      "source_temperature": 950.0,
+      "mean_pressure": 2000.0,
+      "engine_speed": 600.0
+    },
+    {
+      "source_temperature": 973.15,
+      "mean_pressure": 2000.0,
+      "engine_speed": 650.0
+    },
+    {
+      "source_temperature": 998.15,
+      "mean_pressure": 1875.0,
+      "engine_speed": 625.0
+    },
+    {
+      "source_temperature": 1000.0,
+      "mean_pressure": 1900.0,
+      "engine_speed": 650.0
+    },
+    {
+      "source_temperature": 848.15,
+      "mean_pressure": 2062.5,
+      "engine_speed": 737.5
+    },
+    {
+      "source_temperature": 850.0,
+      "mean_pressure": 1800.0,
+      "engine_speed": 600.0
+    },
+    {
+      "source_temperature": 998.15,
+      "mean_pressure": 2062.5,
+      "engine_speed": 737.5
+    },
+    {
+      "source_temperature": 1000.0,
+      "mean_pressure": 1800.0,
+      "engine_speed": 1100.0
+    },
+    {
+      "source_temperature": 980.0,
+      "mean_pressure": 2100.0,
+      "engine_speed": 950.0
+    },
+    {
+      "source_temperature": 1000.0,
+      "mean_pressure": 1900.0,
+      "engine_speed": 450.0
+    },
+    {
+      "source_temperature": 998.15,
+      "mean_pressure": 2625.0,
+      "engine_speed": 1075.0
+    },
+    {
+      "source_temperature": 848.15,
+      "mean_pressure": 2625.0,
+      "engine_speed": 1075.0
+    },
+    {
+      "source_temperature": 980.0,
+      "mean_pressure": 2300.0,
+      "engine_speed": 1050.0
+    },
+    {
+      "source_temperature": 980.0,
+      "mean_pressure": 2800.0,
+      "engine_speed": 1050.0
+    },
+    {
+      "source_temperature": 1000.0,
+      "mean_pressure": 1900.0,
+      "engine_speed": 800.0
+    },
+    {
+      "source_temperature": 1000.0,
+      "mean_pressure": 2700.0,
+      "engine_speed": 1100.0
+    }
+  ]
+}

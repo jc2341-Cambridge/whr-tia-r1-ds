@@ -1,0 +1,33 @@
+{
+  "provider": "deepseek",
+  "base_url": "https://api.deepseek.com",
+  "requested_model": "deepseek-v4-pro",
+  "returned_models": [
+    "deepseek-v4-pro"
+  ],
+  "system_fingerprints": [
+    "a307abda487cd1b463329ccb945ce396"
+  ],
+  "temperature": 0.2,
+  "thinking": "disabled",
+  "response_format": "json_object",
+  "seed_base": 7,
+  "run_id": 0,
+  "n_calls": 40,
+  "n_per_call_requested": 28,
+  "schema_valid_calls": 40,
+  "parse_failures": 0,
+  "api_failures": 0,
+  "records": 1121,
+  "unique_records": 321,
+  "records_in_box": 1119,
+  "exact_lattice_duplicates": 597,
+  "lattice_records": 1989,
+  "prompt_tokens": 8560,
+  "completion_tokens": 60271,
+  "wall_latency_s_sum": 478.6,
+  "utc_finished": "2026-10-26T16:19:58+00:00",
+  "system_prompt": "You are the OperatingCaseProposer in a physics-guided WHR workflow. Propose candidate Stirling operating points as JSON. Never invent power or efficiency labels. Keep source temperature, mean pressure, and engine speed inside the bounds supplied by the user. Prefer regions that are simultaneously sparse and uncertain relative to the labelled seed set. Return only a JSON object with key 'candidates'.",
+  "user_prompt": "Labelled seed count: 102. Ts in [773.15, 1073.15] K; p in [1500.0, 3000.0] kPa; N in [400.0, 1300.0] rpm. Propose points in sparse or high-uncertainty regions of this box.\nReturn exactly 28 candidates as a JSON object {\"candidates\":[{\"source_temperature\":...,\"mean_pressure\":...,\"engine_speed\":...,\"reason\":\"...\"}]} with no power or efficiency fields.",
+  "total_tokens": 68831
+}

@@ -1,0 +1,2 @@
+Labelled seed count: 102. Ts in [773.15, 1073.15] K; p in [1500.0, 3000.0] kPa; N in [400.0, 1300.0] rpm. Propose points in sparse or high-uncertainty regions of this box.
+Return exactly 28 candidates as a JSON object {"candidates":[{"source_temperature":...,"mean_pressure":...,"engine_speed":...,"reason":"..."}]} with no power or efficiency fields.

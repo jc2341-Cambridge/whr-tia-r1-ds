@@ -1,0 +1,157 @@
+{
+  "data": {
+    "source": "GM 4L23 measured performance map (Martini, Stirling Engine Design Manual, NASA CR-168088)",
+    "n_points": 120,
+    "heater_temperatures_K": [
+      810.93,
+      922.04,
+      1033.15
+    ],
+    "pressure_psi": [
+      500.0,
+      2500.0
+    ],
+    "speed_rpm": [
+      200.0,
+      3000.0
+    ],
+    "reference_point": [
+      922.0388888888889,
+      1500.0,
+      1800.0
+    ]
+  },
+  "single_point_calibration": {
+    "theta": [
+      1.0302313902809113e-06,
+      0.005,
+      1.55,
+      0.085,
+      0.032,
+      0.6622703785953848
+    ],
+    "all_other_points": {
+      "n": 119,
+      "power_mape_pct": 12.502750907821184,
+      "power_median_ape_pct": 10.205944799412768,
+      "power_bias_pct": 5.384301110615257,
+      "eff_mape_pct": 7.995309352404922,
+      "eff_bias_pct": 6.623434292769267
+    }
+  },
+  "level_calibration_1200F": {
+    "theta": [
+      1.01366369587296e-06,
+      0.0069489865798555974,
+      2.9999999999999267,
+      0.198222761430438,
+      4.999999999999996,
+      0.625877713558193
+    ],
+    "calibration_level": {
+      "n": 40,
+      "power_mape_pct": 7.1395521126145525,
+      "power_median_ape_pct": 5.880335446090452,
+      "power_bias_pct": -0.8484230394581498,
+      "eff_mape_pct": 8.033490179895402,
+      "eff_bias_pct": -1.2230848794885145
+    },
+    "validation_levels": {
+      "n": 80,
+      "power_mape_pct": 13.39366040355045,
+      "power_median_ape_pct": 11.576851043584563,
+      "power_bias_pct": 3.710338277431588,
+      "eff_mape_pct": 6.8641816642237465,
+      "eff_bias_pct": -0.473073493541398
+    }
+  },
+  "surrogate_loo_measured_gm4l23": {
+    "n": 120,
+    "power_mae": 0.9373393034870127,
+    "power_mape_pct": 1.7380177950236446,
+    "eff_mae_pp": 0.5663505921528308
+  },
+  "surrogate_loo_yanmar_27_seeds": {
+    "n": 27,
+    "power_mae": 243.17084680612678,
+    "power_mape_pct": 4.68266857000414,
+    "eff_mae_pp": 0.13767475766341492
+  },
+  "gpu3": {
+    "data": {
+      "source": "GPU-3 helium brake map, NASA Lewis (Thieme, NASA TM-79103, 1979)",
+      "n_power": 42,
+      "n_efficiency": 16,
+      "heater_temperatures_K": [
+        866.48,
+        922.04,
+        977.59
+      ],
+      "reference_point": [
+        922.0388888888889,
+        1000.0,
+        3000.0
+      ]
+    },
+    "single_point_calibration": {
+      "theta": [
+        3.426536708953592e-05,
+        0.005,
+        1.55,
+        0.085,
+        0.032,
+        0.4294486495618966
+      ],
+      "other_points_with_efficiency": {
+        "n": 15,
+        "power_mape_pct": 39.4549234852596,
+        "power_median_ape_pct": 27.9520205072609,
+        "power_bias_pct": 16.081755642666575,
+        "eff_mape_pct": 33.19210610911023,
+        "eff_bias_pct": 15.70635935866394
+      },
+      "other_points_power": {
+        "n": 41,
+        "power_mape_pct": 56.523443834473596,
+        "power_median_ape_pct": 27.318682146420876,
+        "power_bias_pct": 35.902594740242
+      },
+      "off_1200F_power": {
+        "n": 26,
+        "power_mape_pct": 66.37066711286627,
+        "power_median_ape_pct": 23.810257159918923,
+        "power_bias_pct": 47.33769421961244
+      }
+    },
+    "level_calibration_1200F": {
+      "theta": [
+        6.568170085693744e-05,
+        0.07744704187885844,
+        0.5000000000000001,
+        0.49999999999999994,
+        4.999999999999999,
+        0.8078133773415241
+      ],
+      "calibration_level": {
+        "n": 16,
+        "power_mape_pct": 6.580895222699587,
+        "power_median_ape_pct": 5.485964633377292,
+        "power_bias_pct": -0.7377742562432961,
+        "eff_mape_pct": 9.995667387967663,
+        "eff_bias_pct": -1.4475885223061131
+      },
+      "validation_levels_power": {
+        "n": 26,
+        "power_mape_pct": 26.453270000838934,
+        "power_median_ape_pct": 16.04102159891529,
+        "power_bias_pct": 15.032471545108953
+      }
+    },
+    "surrogate_loo_measured_gpu3": {
+      "n": 16,
+      "power_mae": 234.07184251378956,
+      "power_mape_pct": 10.944466912002303,
+      "eff_mae_pp": 1.1037451560743412
+    }
+  }
+}

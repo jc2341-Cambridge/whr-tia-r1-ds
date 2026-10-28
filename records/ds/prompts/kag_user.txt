@@ -1,0 +1,33 @@
+Retrieved labelled seed records (27), columns Ts [K], p [kPa], N [rpm], power [W], efficiency [-]:
+773.15, 1500.0, 400.0, 2250.0, 0.1873
+773.15, 1500.0, 800.0, 4454.1, 0.1852
+773.15, 1500.0, 1300.0, 7044.3, 0.1795
+773.15, 2500.0, 400.0, 3744.2, 0.1990
+773.15, 2500.0, 800.0, 7398.6, 0.1964
+773.15, 2500.0, 1300.0, 11672.3, 0.1900
+773.15, 3000.0, 400.0, 4490.0, 0.2039
+773.15, 3000.0, 800.0, 8865.5, 0.2011
+773.15, 3000.0, 1300.0, 13971.5, 0.1943
+923.15, 1500.0, 400.0, 2536.5, 0.2166
+923.15, 1500.0, 800.0, 5028.1, 0.2145
+923.15, 1500.0, 1300.0, 8009.1, 0.2096
+923.15, 2500.0, 400.0, 4221.6, 0.2302
+923.15, 2500.0, 800.0, 8355.3, 0.2276
+923.15, 2500.0, 1300.0, 13280.4, 0.2219
+923.15, 3000.0, 400.0, 5062.8, 0.2358
+923.15, 3000.0, 800.0, 10013.5, 0.2330
+923.15, 3000.0, 1300.0, 15901.2, 0.2270
+1073.15, 1500.0, 400.0, 2744.7, 0.2389
+1073.15, 1500.0, 800.0, 5445.8, 0.2367
+1073.15, 1500.0, 1300.0, 8718.5, 0.2327
+1073.15, 2500.0, 400.0, 4568.5, 0.2539
+1073.15, 2500.0, 800.0, 9051.5, 0.2513
+1073.15, 2500.0, 1300.0, 14462.6, 0.2465
+1073.15, 3000.0, 400.0, 5479.2, 0.2601
+1073.15, 3000.0, 800.0, 10848.9, 0.2573
+1073.15, 3000.0, 1300.0, 17319.8, 0.2522
+Device: Yanmar SE220-100 equivalent helium beta-type Stirling engine, rated 9.9 kW at Ts = 1023.15 K, p = 2800 kPa, N = 800 rpm.
+Feasible box: Ts in [773.15, 1073.15] K; p in [1500.0, 3000.0] kPa; N in [400.0, 1300.0] rpm.
+Physics priors: shaft power rises with mean pressure and with source temperature; efficiency is bounded by the Carnot limit and decreases with engine speed through flow and regenerator losses.
+Task: propose operating points that fill the gaps between the labelled seeds, so that a surrogate fitted to the seeds plus the new points generalises over the whole box. Use the seed labels to judge where the surface bends or interacts. Do not repeat seed points and do not restrict yourself to the seed levels or to a regular grid.
+Return exactly 28 candidates as a JSON object {"candidates":[{"source_temperature":...,"mean_pressure":...,"engine_speed":...,"reason":"..."}]} with no power or efficiency fields.

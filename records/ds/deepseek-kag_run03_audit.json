@@ -1,0 +1,34 @@
+{
+  "provider": "deepseek",
+  "prompt_variant": "kag",
+  "base_url": "https://api.deepseek.com",
+  "requested_model": "deepseek-v4-pro",
+  "returned_models": [
+    "deepseek-v4-pro"
+  ],
+  "system_fingerprints": [
+    "a307abda487cd1b463329ccb945ce396"
+  ],
+  "temperature": 0.2,
+  "thinking": "disabled",
+  "response_format": "json_object",
+  "seed_base": 3007,
+  "run_id": 3,
+  "n_calls": 40,
+  "n_per_call_requested": 28,
+  "schema_valid_calls": 40,
+  "parse_failures": 0,
+  "api_failures": 0,
+  "records": 1122,
+  "unique_records": 170,
+  "records_in_box": 1122,
+  "exact_lattice_duplicates": 590,
+  "lattice_records": 1989,
+  "prompt_tokens": 44640,
+  "completion_tokens": 65452,
+  "wall_latency_s_sum": 524.2,
+  "utc_finished": "2026-10-26T17:14:29+00:00",
+  "system_prompt": "You are the OperatingCaseProposer in a physics-guided WHR workflow. Propose candidate Stirling operating points as JSON. Never invent power or efficiency labels. Keep source temperature, mean pressure, and engine speed inside the bounds supplied by the user. Prefer regions that are simultaneously sparse and uncertain relative to the labelled seed set. Return only a JSON object with key 'candidates'.",
+  "user_prompt": "Retrieved labelled seed records (27), columns Ts [K], p [kPa], N [rpm], power [W], efficiency [-]:\n773.15, 1500.0, 400.0, 2250.0, 0.1873\n773.15, 1500.0, 800.0, 4454.1, 0.1852\n773.15, 1500.0, 1300.0, 7044.3, 0.1795\n773.15, 2500.0, 400.0, 3744.2, 0.1990\n773.15, 2500.0, 800.0, 7398.6, 0.1964\n773.15, 2500.0, 1300.0, 11672.3, 0.1900\n773.15, 3000.0, 400.0, 4490.0, 0.2039\n773.15, 3000.0, 800.0, 8865.5, 0.2011\n773.15, 3000.0, 1300.0, 13971.5, 0.1943\n923.15, 1500.0, 400.0, 2536.5, 0.2166\n923.15, 1500.0, 800.0, 5028.1, 0.2145\n923.15, 1500.0, 1300.0, 8009.1, 0.2096\n923.15, 2500.0, 400.0, 4221.6, 0.2302\n923.15, 2500.0, 800.0, 8355.3, 0.2276\n923.15, 2500.0, 1300.0, 13280.4, 0.2219\n923.15, 3000.0, 400.0, 5062.8, 0.2358\n923.15, 3000.0, 800.0, 10013.5, 0.2330\n923.15, 3000.0, 1300.0, 15901.2, 0.2270\n1073.15, 1500.0, 400.0, 2744.7, 0.2389\n1073.15, 1500.0, 800.0, 5445.8, 0.2367\n1073.15, 1500.0, 1300.0, 8718.5, 0.2327\n1073.15, 2500.0, 400.0, 4568.5, 0.2539\n1073.15, 2500.0, 800.0, 9051.5, 0.2513\n1073.15, 2500.0, 1300.0, 14462.6, 0.2465\n1073.15, 3000.0, 400.0, 5479.2, 0.2601\n1073.15, 3000.0, 800.0, 10848.9, 0.2573\n1073.15, 3000.0, 1300.0, 17319.8, 0.2522\nDevice: Yanmar SE220-100 equivalent helium beta-type Stirling engine, rated 9.9 kW at Ts = 1023.15 K, p = 2800 kPa, N = 800 rpm.\nFeasible box: Ts in [773.15, 1073.15] K; p in [1500.0, 3000.0] kPa; N in [400.0, 1300.0] rpm.\nPhysics priors: shaft power rises with mean pressure and with source temperature; efficiency is bounded by the Carnot limit and decreases with engine speed through flow and regenerator losses.\nTask: propose operating points that fill the gaps between the labelled seeds, so that a surrogate fitted to the seeds plus the new points generalises over the whole box. Use the seed labels to judge where the surface bends or interacts. Do not repeat seed points and do not restrict yourself to the seed levels or to a regular grid.\nReturn exactly 28 candidates as a JSON object {\"candidates\":[{\"source_temperature\":...,\"mean_pressure\":...,\"engine_speed\":...,\"reason\":\"...\"}]} with no power or efficiency fields.",
+  "total_tokens": 110092
+}

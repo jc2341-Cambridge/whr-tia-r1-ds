@@ -1,0 +1,1121 @@
+run_id,call,record,source_temperature,mean_pressure,engine_speed,reason
+0,0,0,848.15,2000.0,850.0,"Midpoint between 773.15 and 923.15 K, pressure between 1500 and 2500 kPa, speed between 400 and 1300 rpm, fills central gap."
+0,0,1,998.15,2000.0,850.0,"Midpoint between 923.15 and 1073.15 K, pressure between 1500 and 2500 kPa, speed between 400 and 1300 rpm, fills central gap."
+0,0,2,848.15,2750.0,850.0,"Midpoint between 773.15 and 923.15 K, pressure between 2500 and 3000 kPa, speed between 400 and 1300 rpm, fills central gap."
+0,0,3,998.15,2750.0,850.0,"Midpoint between 923.15 and 1073.15 K, pressure between 2500 and 3000 kPa, speed between 400 and 1300 rpm, fills central gap."
+0,0,4,848.15,2000.0,1050.0,"Midpoint between 773.15 and 923.15 K, pressure between 1500 and 2500 kPa, speed between 800 and 1300 rpm, fills central gap."
+0,0,5,998.15,2000.0,1050.0,"Midpoint between 923.15 and 1073.15 K, pressure between 1500 and 2500 kPa, speed between 800 and 1300 rpm, fills central gap."
+0,0,6,848.15,2750.0,1050.0,"Midpoint between 773.15 and 923.15 K, pressure between 2500 and 3000 kPa, speed between 800 and 1300 rpm, fills central gap."
+0,0,7,998.15,2750.0,1050.0,"Midpoint between 923.15 and 1073.15 K, pressure between 2500 and 3000 kPa, speed between 800 and 1300 rpm, fills central gap."
+0,0,8,848.15,2000.0,600.0,"Midpoint between 773.15 and 923.15 K, pressure between 1500 and 2500 kPa, speed between 400 and 800 rpm, fills central gap."
+0,0,9,998.15,2000.0,600.0,"Midpoint between 923.15 and 1073.15 K, pressure between 1500 and 2500 kPa, speed between 400 and 800 rpm, fills central gap."
+0,0,10,848.15,2750.0,600.0,"Midpoint between 773.15 and 923.15 K, pressure between 2500 and 3000 kPa, speed between 400 and 800 rpm, fills central gap."
+0,0,11,998.15,2750.0,600.0,"Midpoint between 923.15 and 1073.15 K, pressure between 2500 and 3000 kPa, speed between 400 and 800 rpm, fills central gap."
+0,0,12,773.15,2000.0,850.0,"Pressure midpoint between 1500 and 2500 kPa at lowest temperature, speed midpoint between 400 and 1300 rpm, fills gap along pressure axis."
+0,0,13,923.15,2000.0,850.0,"Pressure midpoint between 1500 and 2500 kPa at middle temperature, speed midpoint between 400 and 1300 rpm, fills gap along pressure axis."
+0,0,14,1073.15,2000.0,850.0,"Pressure midpoint between 1500 and 2500 kPa at highest temperature, speed midpoint between 400 and 1300 rpm, fills gap along pressure axis."
+0,0,15,773.15,2750.0,850.0,"Pressure midpoint between 2500 and 3000 kPa at lowest temperature, speed midpoint between 400 and 1300 rpm, fills gap along pressure axis."
+0,0,16,923.15,2750.0,850.0,"Pressure midpoint between 2500 and 3000 kPa at middle temperature, speed midpoint between 400 and 1300 rpm, fills gap along pressure axis."
+0,0,17,1073.15,2750.0,850.0,"Pressure midpoint between 2500 and 3000 kPa at highest temperature, speed midpoint between 400 and 1300 rpm, fills gap along pressure axis."
+0,0,18,848.15,1500.0,850.0,"Temperature midpoint between 773.15 and 923.15 K at lowest pressure, speed midpoint between 400 and 1300 rpm, fills gap along temperature axis."
+0,0,19,998.15,1500.0,850.0,"Temperature midpoint between 923.15 and 1073.15 K at lowest pressure, speed midpoint between 400 and 1300 rpm, fills gap along temperature axis."
+0,0,20,848.15,3000.0,850.0,"Temperature midpoint between 773.15 and 923.15 K at highest pressure, speed midpoint between 400 and 1300 rpm, fills gap along temperature axis."
+0,0,21,998.15,3000.0,850.0,"Temperature midpoint between 923.15 and 1073.15 K at highest pressure, speed midpoint between 400 and 1300 rpm, fills gap along temperature axis."
+0,0,22,848.15,2000.0,400.0,"Temperature and pressure midpoints, lowest speed, fills gap at low speed."
+0,0,23,998.15,2000.0,400.0,"Temperature and pressure midpoints, lowest speed, fills gap at low speed."
+0,0,24,848.15,2000.0,1300.0,"Temperature and pressure midpoints, highest speed, fills gap at high speed."
+0,0,25,998.15,2000.0,1300.0,"Temperature and pressure midpoints, highest speed, fills gap at high speed."
+0,0,26,923.15,2250.0,850.0,"Central point with pressure between 2000 and 2500 kPa, temperature at middle level, speed midpoint, fills central region."
+0,0,27,923.15,2750.0,600.0,"Pressure near high end, temperature middle, speed between 400 and 800 rpm, fills gap in high pressure low speed region."
+0,1,0,773.15,2000.0,400.0,"Mid-pressure at low temperature and low speed, between existing p=1500 and p=2500 seeds."
+0,1,1,773.15,2000.0,800.0,"Mid-pressure at low temperature and mid speed, filling gap in p dimension."
+0,1,2,773.15,2000.0,1300.0,"Mid-pressure at low temperature and high speed, completing p interpolation."
+0,1,3,773.15,2750.0,400.0,Between p=2500 and p=3000 at low temperature and low speed.
+0,1,4,773.15,2750.0,800.0,Between p=2500 and p=3000 at low temperature and mid speed.
+0,1,5,773.15,2750.0,1300.0,Between p=2500 and p=3000 at low temperature and high speed.
+0,1,6,848.15,1500.0,400.0,Mid-temperature between 773 and 923 at low pressure and low speed.
+0,1,7,848.15,1500.0,800.0,Mid-temperature at low pressure and mid speed.
+0,1,8,848.15,1500.0,1300.0,Mid-temperature at low pressure and high speed.
+0,1,9,848.15,2500.0,400.0,Mid-temperature at mid pressure and low speed.
+0,1,10,848.15,2500.0,800.0,Mid-temperature at mid pressure and mid speed.
+0,1,11,848.15,2500.0,1300.0,Mid-temperature at mid pressure and high speed.
+0,1,12,848.15,3000.0,400.0,Mid-temperature at high pressure and low speed.
+0,1,13,848.15,3000.0,800.0,Mid-temperature at high pressure and mid speed.
+0,1,14,848.15,3000.0,1300.0,Mid-temperature at high pressure and high speed.
+0,1,15,998.15,1500.0,400.0,Mid-temperature between 923 and 1073 at low pressure and low speed.
+0,1,16,998.15,1500.0,800.0,Mid-temperature at low pressure and mid speed.
+0,1,17,998.15,1500.0,1300.0,Mid-temperature at low pressure and high speed.
+0,1,18,998.15,2500.0,400.0,Mid-temperature at mid pressure and low speed.
+0,1,19,998.15,2500.0,800.0,Mid-temperature at mid pressure and mid speed.
+0,1,20,998.15,2500.0,1300.0,Mid-temperature at mid pressure and high speed.
+0,1,21,998.15,3000.0,400.0,Mid-temperature at high pressure and low speed.
+0,1,22,998.15,3000.0,800.0,Mid-temperature at high pressure and mid speed.
+0,1,23,998.15,3000.0,1300.0,Mid-temperature at high pressure and high speed.
+0,1,24,1073.15,2000.0,400.0,Mid-pressure at high temperature and low speed.
+0,1,25,1073.15,2000.0,800.0,Mid-pressure at high temperature and mid speed.
+0,1,26,1073.15,2000.0,1300.0,Mid-pressure at high temperature and high speed.
+0,1,27,1073.15,2750.0,400.0,Between p=2500 and p=3000 at high temperature and low speed.
+0,2,0,773.15,2000.0,400.0,"Mid-pressure at low temperature and low speed, between existing p=1500 and p=2500 seeds."
+0,2,1,773.15,2000.0,800.0,"Mid-pressure at low temperature and mid speed, filling gap in pressure dimension."
+0,2,2,773.15,2000.0,1300.0,"Mid-pressure at low temperature and high speed, completing pressure interpolation."
+0,2,3,773.15,2750.0,400.0,Between p=2500 and p=3000 at low temperature and low speed.
+0,2,4,773.15,2750.0,800.0,Between p=2500 and p=3000 at low temperature and mid speed.
+0,2,5,773.15,2750.0,1300.0,Between p=2500 and p=3000 at low temperature and high speed.
+0,2,6,848.15,1500.0,400.0,Mid-temperature between 773 and 923 K at low pressure and low speed.
+0,2,7,848.15,1500.0,800.0,Mid-temperature at low pressure and mid speed.
+0,2,8,848.15,1500.0,1300.0,Mid-temperature at low pressure and high speed.
+0,2,9,848.15,2500.0,400.0,Mid-temperature at mid pressure and low speed.
+0,2,10,848.15,2500.0,800.0,Mid-temperature at mid pressure and mid speed.
+0,2,11,848.15,2500.0,1300.0,Mid-temperature at mid pressure and high speed.
+0,2,12,848.15,3000.0,400.0,Mid-temperature at high pressure and low speed.
+0,2,13,848.15,3000.0,800.0,Mid-temperature at high pressure and mid speed.
+0,2,14,848.15,3000.0,1300.0,Mid-temperature at high pressure and high speed.
+0,2,15,998.15,1500.0,400.0,Mid-temperature between 923 and 1073 K at low pressure and low speed.
+0,2,16,998.15,1500.0,800.0,Mid-temperature at low pressure and mid speed.
+0,2,17,998.15,1500.0,1300.0,Mid-temperature at low pressure and high speed.
+0,2,18,998.15,2500.0,400.0,Mid-temperature at mid pressure and low speed.
+0,2,19,998.15,2500.0,800.0,Mid-temperature at mid pressure and mid speed.
+0,2,20,998.15,2500.0,1300.0,Mid-temperature at mid pressure and high speed.
+0,2,21,998.15,3000.0,400.0,Mid-temperature at high pressure and low speed.
+0,2,22,998.15,3000.0,800.0,Mid-temperature at high pressure and mid speed.
+0,2,23,998.15,3000.0,1300.0,Mid-temperature at high pressure and high speed.
+0,2,24,1073.15,2000.0,400.0,"Mid-pressure at high temperature and low speed, between p=1500 and p=2500."
+0,2,25,1073.15,2000.0,800.0,Mid-pressure at high temperature and mid speed.
+0,2,26,1073.15,2000.0,1300.0,Mid-pressure at high temperature and high speed.
+0,2,27,1073.15,2750.0,400.0,Between p=2500 and p=3000 at high temperature and low speed.
+0,3,0,773.15,2000.0,400.0,"Mid-pressure at low temperature and low speed, between existing 1500 and 2500 kPa seeds."
+0,3,1,773.15,2000.0,800.0,"Mid-pressure at low temperature and mid speed, filling gap between 1500 and 2500 kPa."
+0,3,2,773.15,2000.0,1300.0,"Mid-pressure at low temperature and high speed, between existing pressure levels."
+0,3,3,773.15,2750.0,400.0,Between 2500 and 3000 kPa at low temperature and low speed.
+0,3,4,773.15,2750.0,800.0,Between 2500 and 3000 kPa at low temperature and mid speed.
+0,3,5,773.15,2750.0,1300.0,Between 2500 and 3000 kPa at low temperature and high speed.
+0,3,6,848.15,1500.0,400.0,Mid-temperature between 773 and 923 K at low pressure and low speed.
+0,3,7,848.15,1500.0,800.0,Mid-temperature at low pressure and mid speed.
+0,3,8,848.15,1500.0,1300.0,Mid-temperature at low pressure and high speed.
+0,3,9,848.15,2500.0,400.0,Mid-temperature at mid pressure and low speed.
+0,3,10,848.15,2500.0,800.0,Mid-temperature at mid pressure and mid speed.
+0,3,11,848.15,2500.0,1300.0,Mid-temperature at mid pressure and high speed.
+0,3,12,848.15,3000.0,400.0,Mid-temperature at high pressure and low speed.
+0,3,13,848.15,3000.0,800.0,Mid-temperature at high pressure and mid speed.
+0,3,14,848.15,3000.0,1300.0,Mid-temperature at high pressure and high speed.
+0,3,15,998.15,1500.0,400.0,Mid-temperature between 923 and 1073 K at low pressure and low speed.
+0,3,16,998.15,1500.0,800.0,Mid-temperature at low pressure and mid speed.
+0,3,17,998.15,1500.0,1300.0,Mid-temperature at low pressure and high speed.
+0,3,18,998.15,2500.0,400.0,Mid-temperature at mid pressure and low speed.
+0,3,19,998.15,2500.0,800.0,Mid-temperature at mid pressure and mid speed.
+0,3,20,998.15,2500.0,1300.0,Mid-temperature at mid pressure and high speed.
+0,3,21,998.15,3000.0,400.0,Mid-temperature at high pressure and low speed.
+0,3,22,998.15,3000.0,800.0,Mid-temperature at high pressure and mid speed.
+0,3,23,998.15,3000.0,1300.0,Mid-temperature at high pressure and high speed.
+0,3,24,1073.15,2000.0,400.0,"Mid-pressure at high temperature and low speed, between 1500 and 2500 kPa."
+0,3,25,1073.15,2000.0,800.0,Mid-pressure at high temperature and mid speed.
+0,3,26,1073.15,2000.0,1300.0,Mid-pressure at high temperature and high speed.
+0,3,27,1073.15,2750.0,400.0,Between 2500 and 3000 kPa at high temperature and low speed.
+0,4,0,773.15,2000.0,400.0,"Mid-pressure gap at lowest temperature and low speed, between 1500 and 2500 kPa seeds."
+0,4,1,773.15,2000.0,800.0,"Mid-pressure gap at lowest temperature and mid speed, between 1500 and 2500 kPa seeds."
+0,4,2,773.15,2000.0,1300.0,"Mid-pressure gap at lowest temperature and high speed, between 1500 and 2500 kPa seeds."
+0,4,3,773.15,2750.0,400.0,"Mid-pressure gap at lowest temperature and low speed, between 2500 and 3000 kPa seeds."
+0,4,4,773.15,2750.0,800.0,"Mid-pressure gap at lowest temperature and mid speed, between 2500 and 3000 kPa seeds."
+0,4,5,773.15,2750.0,1300.0,"Mid-pressure gap at lowest temperature and high speed, between 2500 and 3000 kPa seeds."
+0,4,6,848.15,1500.0,400.0,"Mid-temperature gap at lowest pressure and low speed, between 773.15 and 923.15 K seeds."
+0,4,7,848.15,1500.0,800.0,"Mid-temperature gap at lowest pressure and mid speed, between 773.15 and 923.15 K seeds."
+0,4,8,848.15,1500.0,1300.0,"Mid-temperature gap at lowest pressure and high speed, between 773.15 and 923.15 K seeds."
+0,4,9,848.15,2500.0,400.0,"Mid-temperature gap at mid pressure and low speed, between 773.15 and 923.15 K seeds."
+0,4,10,848.15,2500.0,800.0,"Mid-temperature gap at mid pressure and mid speed, between 773.15 and 923.15 K seeds."
+0,4,11,848.15,2500.0,1300.0,"Mid-temperature gap at mid pressure and high speed, between 773.15 and 923.15 K seeds."
+0,4,12,848.15,3000.0,400.0,"Mid-temperature gap at highest pressure and low speed, between 773.15 and 923.15 K seeds."
+0,4,13,848.15,3000.0,800.0,"Mid-temperature gap at highest pressure and mid speed, between 773.15 and 923.15 K seeds."
+0,4,14,848.15,3000.0,1300.0,"Mid-temperature gap at highest pressure and high speed, between 773.15 and 923.15 K seeds."
+0,4,15,998.15,1500.0,400.0,"Mid-temperature gap at lowest pressure and low speed, between 923.15 and 1073.15 K seeds."
+0,4,16,998.15,1500.0,800.0,"Mid-temperature gap at lowest pressure and mid speed, between 923.15 and 1073.15 K seeds."
+0,4,17,998.15,1500.0,1300.0,"Mid-temperature gap at lowest pressure and high speed, between 923.15 and 1073.15 K seeds."
+0,4,18,998.15,2500.0,400.0,"Mid-temperature gap at mid pressure and low speed, between 923.15 and 1073.15 K seeds."
+0,4,19,998.15,2500.0,800.0,"Mid-temperature gap at mid pressure and mid speed, between 923.15 and 1073.15 K seeds."
+0,4,20,998.15,2500.0,1300.0,"Mid-temperature gap at mid pressure and high speed, between 923.15 and 1073.15 K seeds."
+0,4,21,998.15,3000.0,400.0,"Mid-temperature gap at highest pressure and low speed, between 923.15 and 1073.15 K seeds."
+0,4,22,998.15,3000.0,800.0,"Mid-temperature gap at highest pressure and mid speed, between 923.15 and 1073.15 K seeds."
+0,4,23,998.15,3000.0,1300.0,"Mid-temperature gap at highest pressure and high speed, between 923.15 and 1073.15 K seeds."
+0,4,24,848.15,2000.0,600.0,Interior point in temperature-pressure gap with non-seed speed to capture curvature.
+0,4,25,998.15,2000.0,600.0,Interior point in temperature-pressure gap with non-seed speed to capture curvature.
+0,4,26,923.15,2250.0,1050.0,Interior point near mid-range with non-seed pressure and speed to probe interaction.
+0,4,27,773.15,2250.0,1050.0,Interior point at low temperature with non-seed pressure and speed to probe interaction.
+0,5,0,773.15,2000.0,400.0,"Mid-pressure at low temperature and low speed, between existing 1500 and 2500 kPa seeds."
+0,5,1,773.15,2000.0,800.0,"Mid-pressure at low temperature and mid speed, filling gap between 1500 and 2500 kPa."
+0,5,2,773.15,2000.0,1300.0,"Mid-pressure at low temperature and high speed, completing pressure interpolation at 773 K."
+0,5,3,773.15,2750.0,400.0,Between 2500 and 3000 kPa at low temperature and low speed.
+0,5,4,773.15,2750.0,800.0,Between 2500 and 3000 kPa at low temperature and mid speed.
+0,5,5,773.15,2750.0,1300.0,Between 2500 and 3000 kPa at low temperature and high speed.
+0,5,6,848.15,1500.0,400.0,Mid-temperature between 773 and 923 K at low pressure and low speed.
+0,5,7,848.15,1500.0,800.0,Mid-temperature at low pressure and mid speed.
+0,5,8,848.15,1500.0,1300.0,Mid-temperature at low pressure and high speed.
+0,5,9,848.15,2500.0,400.0,Mid-temperature at mid pressure and low speed.
+0,5,10,848.15,2500.0,800.0,Mid-temperature at mid pressure and mid speed.
+0,5,11,848.15,2500.0,1300.0,Mid-temperature at mid pressure and high speed.
+0,5,12,848.15,3000.0,400.0,Mid-temperature at high pressure and low speed.
+0,5,13,848.15,3000.0,800.0,Mid-temperature at high pressure and mid speed.
+0,5,14,848.15,3000.0,1300.0,Mid-temperature at high pressure and high speed.
+0,5,15,998.15,1500.0,400.0,Mid-temperature between 923 and 1073 K at low pressure and low speed.
+0,5,16,998.15,1500.0,800.0,Mid-temperature at low pressure and mid speed.
+0,5,17,998.15,1500.0,1300.0,Mid-temperature at low pressure and high speed.
+0,5,18,998.15,2500.0,400.0,Mid-temperature at mid pressure and low speed.
+0,5,19,998.15,2500.0,800.0,Mid-temperature at mid pressure and mid speed.
+0,5,20,998.15,2500.0,1300.0,Mid-temperature at mid pressure and high speed.
+0,5,21,998.15,3000.0,400.0,Mid-temperature at high pressure and low speed.
+0,5,22,998.15,3000.0,800.0,Mid-temperature at high pressure and mid speed.
+0,5,23,998.15,3000.0,1300.0,Mid-temperature at high pressure and high speed.
+0,5,24,1073.15,2000.0,400.0,"Mid-pressure at high temperature and low speed, between existing 1500 and 2500 kPa."
+0,5,25,1073.15,2000.0,800.0,Mid-pressure at high temperature and mid speed.
+0,5,26,1073.15,2000.0,1300.0,Mid-pressure at high temperature and high speed.
+0,5,27,1073.15,2750.0,400.0,Between 2500 and 3000 kPa at high temperature and low speed.
+0,6,0,773.15,2000.0,400.0,"Mid-pressure between 1500 and 2500 at low Ts and low N, sparse region."
+0,6,1,773.15,2000.0,800.0,"Mid-pressure at low Ts and mid N, fills gap between seed levels."
+0,6,2,773.15,2000.0,1300.0,"Mid-pressure at low Ts and high N, captures interaction."
+0,6,3,773.15,2750.0,400.0,Between 2500 and 3000 kPa at low Ts and low N.
+0,6,4,773.15,2750.0,800.0,Between 2500 and 3000 kPa at low Ts and mid N.
+0,6,5,773.15,2750.0,1300.0,Between 2500 and 3000 kPa at low Ts and high N.
+0,6,6,848.15,1500.0,400.0,Mid Ts between 773 and 923 at low p and low N.
+0,6,7,848.15,1500.0,800.0,Mid Ts at low p and mid N.
+0,6,8,848.15,1500.0,1300.0,Mid Ts at low p and high N.
+0,6,9,848.15,2500.0,400.0,Mid Ts at mid p and low N.
+0,6,10,848.15,2500.0,800.0,Mid Ts at mid p and mid N.
+0,6,11,848.15,2500.0,1300.0,Mid Ts at mid p and high N.
+0,6,12,848.15,3000.0,400.0,Mid Ts at high p and low N.
+0,6,13,848.15,3000.0,800.0,Mid Ts at high p and mid N.
+0,6,14,848.15,3000.0,1300.0,Mid Ts at high p and high N.
+0,6,15,998.15,1500.0,400.0,Mid Ts between 923 and 1073 at low p and low N.
+0,6,16,998.15,1500.0,800.0,Mid Ts at low p and mid N.
+0,6,17,998.15,1500.0,1300.0,Mid Ts at low p and high N.
+0,6,18,998.15,2500.0,400.0,Mid Ts at mid p and low N.
+0,6,19,998.15,2500.0,800.0,Mid Ts at mid p and mid N.
+0,6,20,998.15,2500.0,1300.0,Mid Ts at mid p and high N.
+0,6,21,998.15,3000.0,400.0,Mid Ts at high p and low N.
+0,6,22,998.15,3000.0,800.0,Mid Ts at high p and mid N.
+0,6,23,998.15,3000.0,1300.0,Mid Ts at high p and high N.
+0,6,24,1073.15,2000.0,400.0,Mid-pressure at high Ts and low N.
+0,6,25,1073.15,2000.0,800.0,Mid-pressure at high Ts and mid N.
+0,6,26,1073.15,2000.0,1300.0,Mid-pressure at high Ts and high N.
+0,6,27,1073.15,2750.0,400.0,Between 2500 and 3000 kPa at high Ts and low N.
+0,7,0,848.15,2000.0,850.0,"Midpoint between seed temperature levels and pressure levels, speed between 400 and 1300, fills sparse central region."
+0,7,1,848.15,2750.0,600.0,"Between pressure 2500 and 3000, speed lower than seed 800, explores interaction at intermediate temperature."
+0,7,2,998.15,1750.0,1100.0,"Between temperature 923 and 1073, pressure between 1500 and 2500, speed between 800 and 1300."
+0,7,3,998.15,2250.0,500.0,"Intermediate temperature and pressure, low speed to capture curvature near 400 rpm."
+0,7,4,773.15,2000.0,1050.0,"Low temperature, intermediate pressure, speed between 800 and 1300, fills gap along low temperature edge."
+0,7,5,773.15,2750.0,600.0,"Low temperature, high pressure, low speed, explores corner not covered by seeds."
+0,7,6,923.15,2000.0,1050.0,"Middle temperature, intermediate pressure, speed between 800 and 1300."
+0,7,7,923.15,2750.0,600.0,"Middle temperature, high pressure, low speed, fills gap between 2500 and 3000 kPa at 600 rpm."
+0,7,8,1073.15,2000.0,1050.0,"High temperature, intermediate pressure, speed between 800 and 1300."
+0,7,9,1073.15,2750.0,600.0,"High temperature, high pressure, low speed, explores high temperature high pressure region."
+0,7,10,848.15,1500.0,1050.0,"Intermediate temperature, low pressure, speed between 800 and 1300."
+0,7,11,848.15,3000.0,1050.0,"Intermediate temperature, high pressure, speed between 800 and 1300."
+0,7,12,998.15,1500.0,600.0,"Intermediate temperature, low pressure, low speed."
+0,7,13,998.15,3000.0,600.0,"Intermediate temperature, high pressure, low speed."
+0,7,14,773.15,2250.0,850.0,"Low temperature, pressure between 2000 and 2500, speed between 400 and 1300."
+0,7,15,923.15,2250.0,850.0,"Middle temperature, pressure between 2000 and 2500, speed between 400 and 1300."
+0,7,16,1073.15,2250.0,850.0,"High temperature, pressure between 2000 and 2500, speed between 400 and 1300."
+0,7,17,848.15,2500.0,1100.0,"Intermediate temperature, pressure at seed level 2500, speed between 800 and 1300."
+0,7,18,848.15,2500.0,500.0,"Intermediate temperature, pressure at seed level 2500, speed between 400 and 800."
+0,7,19,998.15,2500.0,1100.0,"Intermediate temperature, pressure at seed level 2500, speed between 800 and 1300."
+0,7,20,998.15,2500.0,500.0,"Intermediate temperature, pressure at seed level 2500, speed between 400 and 800."
+0,7,21,848.15,1750.0,700.0,"Intermediate temperature, pressure between 1500 and 2000, speed between 400 and 800."
+0,7,22,848.15,2750.0,1000.0,"Intermediate temperature, pressure between 2500 and 3000, speed between 800 and 1300."
+0,7,23,998.15,1750.0,700.0,"Intermediate temperature, pressure between 1500 and 2000, speed between 400 and 800."
+0,7,24,998.15,2750.0,1000.0,"Intermediate temperature, pressure between 2500 and 3000, speed between 800 and 1300."
+0,7,25,773.15,1750.0,700.0,"Low temperature, pressure between 1500 and 2000, speed between 400 and 800."
+0,7,26,1073.15,1750.0,700.0,"High temperature, pressure between 1500 and 2000, speed between 400 and 800."
+0,7,27,773.15,2750.0,1000.0,"Low temperature, pressure between 2500 and 3000, speed between 800 and 1300."
+0,8,0,848.15,2000.0,600.0,"Midpoint between seed levels in Ts and p, low N to capture nonlinear interaction."
+0,8,1,848.15,2000.0,1050.0,Same Ts and p but higher N to probe speed dependence in sparse region.
+0,8,2,848.15,2750.0,600.0,"High p, mid Ts, low N to explore pressure effect away from seed grid."
+0,8,3,848.15,2750.0,1050.0,"High p, mid Ts, high N to capture interaction between pressure and speed."
+0,8,4,998.15,2000.0,600.0,"Mid Ts between 923 and 1073, mid p, low N to fill gap."
+0,8,5,998.15,2000.0,1050.0,"Same Ts and p, higher N to assess speed effect at intermediate temperature."
+0,8,6,998.15,2750.0,600.0,"High p, mid-high Ts, low N to explore region with likely high power."
+0,8,7,998.15,2750.0,1050.0,"High p, mid-high Ts, high N to capture combined effects."
+0,8,8,773.15,2250.0,600.0,"Low Ts, mid p, low N to fill gap between p=1500 and 2500 at low temperature."
+0,8,9,773.15,2250.0,1050.0,"Low Ts, mid p, high N to probe speed at low temperature."
+0,8,10,923.15,2250.0,600.0,"Mid Ts, mid p, low N to fill central gap."
+0,8,11,923.15,2250.0,1050.0,"Mid Ts, mid p, high N to capture central region speed dependence."
+0,8,12,1073.15,2250.0,600.0,"High Ts, mid p, low N to fill gap at high temperature."
+0,8,13,1073.15,2250.0,1050.0,"High Ts, mid p, high N to probe high temperature speed effect."
+0,8,14,848.15,1500.0,600.0,"Mid Ts, low p, low N to fill gap between seed temperatures at low pressure."
+0,8,15,848.15,1500.0,1050.0,"Mid Ts, low p, high N to capture low pressure speed dependence."
+0,8,16,848.15,3000.0,600.0,"Mid Ts, high p, low N to explore high pressure at intermediate temperature."
+0,8,17,848.15,3000.0,1050.0,"Mid Ts, high p, high N to capture high pressure speed interaction."
+0,8,18,998.15,1500.0,600.0,"Mid-high Ts, low p, low N to fill gap."
+0,8,19,998.15,1500.0,1050.0,"Mid-high Ts, low p, high N to probe speed at low pressure."
+0,8,20,998.15,3000.0,600.0,"Mid-high Ts, high p, low N to explore high pressure region."
+0,8,21,998.15,3000.0,1050.0,"Mid-high Ts, high p, high N to capture combined effects."
+0,8,22,773.15,2000.0,850.0,"Low Ts, mid p, mid N to fill gap between seed speeds."
+0,8,23,923.15,2000.0,850.0,"Mid Ts, mid p, mid N to capture central region."
+0,8,24,1073.15,2000.0,850.0,"High Ts, mid p, mid N to fill high temperature gap."
+0,8,25,848.15,2500.0,850.0,"Mid Ts, mid-high p, mid N to explore interaction."
+0,8,26,998.15,2500.0,850.0,"Mid-high Ts, mid-high p, mid N to fill gap."
+0,8,27,923.15,2750.0,850.0,"Mid Ts, high p, mid N to capture high pressure at mid temperature."
+0,9,0,773.15,2000.0,400.0,Mid-pressure gap at low temperature and low speed; sparse between 1500 and 2500 kPa.
+0,9,1,773.15,2000.0,800.0,Mid-pressure gap at low temperature and mid speed; no seed at 2000 kPa.
+0,9,2,773.15,2000.0,1300.0,Mid-pressure gap at low temperature and high speed; completes pressure interpolation.
+0,9,3,773.15,2750.0,400.0,"Between 2500 and 3000 kPa at low temperature, low speed; captures nonlinear pressure effect."
+0,9,4,773.15,2750.0,800.0,"Between 2500 and 3000 kPa at low temperature, mid speed; fills gap."
+0,9,5,773.15,2750.0,1300.0,"Between 2500 and 3000 kPa at low temperature, high speed; fills gap."
+0,9,6,848.15,1500.0,400.0,Mid-temperature gap at low pressure and low speed; no seed at 848 K.
+0,9,7,848.15,1500.0,800.0,Mid-temperature gap at low pressure and mid speed.
+0,9,8,848.15,1500.0,1300.0,Mid-temperature gap at low pressure and high speed.
+0,9,9,848.15,2500.0,400.0,Mid-temperature gap at mid pressure and low speed.
+0,9,10,848.15,2500.0,800.0,Mid-temperature gap at mid pressure and mid speed.
+0,9,11,848.15,2500.0,1300.0,Mid-temperature gap at mid pressure and high speed.
+0,9,12,848.15,3000.0,400.0,Mid-temperature gap at high pressure and low speed.
+0,9,13,848.15,3000.0,800.0,Mid-temperature gap at high pressure and mid speed.
+0,9,14,848.15,3000.0,1300.0,Mid-temperature gap at high pressure and high speed.
+0,9,15,998.15,1500.0,400.0,Mid-temperature gap between 923 and 1073 K at low pressure and low speed.
+0,9,16,998.15,1500.0,800.0,Mid-temperature gap at low pressure and mid speed.
+0,9,17,998.15,1500.0,1300.0,Mid-temperature gap at low pressure and high speed.
+0,9,18,998.15,2500.0,400.0,Mid-temperature gap at mid pressure and low speed.
+0,9,19,998.15,2500.0,800.0,Mid-temperature gap at mid pressure and mid speed.
+0,9,20,998.15,2500.0,1300.0,Mid-temperature gap at mid pressure and high speed.
+0,9,21,998.15,3000.0,400.0,Mid-temperature gap at high pressure and low speed.
+0,9,22,998.15,3000.0,800.0,Mid-temperature gap at high pressure and mid speed.
+0,9,23,998.15,3000.0,1300.0,Mid-temperature gap at high pressure and high speed.
+0,9,24,1073.15,2000.0,400.0,Mid-pressure gap at high temperature and low speed; no seed at 2000 kPa.
+0,9,25,1073.15,2000.0,800.0,Mid-pressure gap at high temperature and mid speed.
+0,9,26,1073.15,2000.0,1300.0,Mid-pressure gap at high temperature and high speed.
+0,9,27,1073.15,2750.0,400.0,"Between 2500 and 3000 kPa at high temperature, low speed; captures nonlinearity."
+0,10,0,848.15,2000.0,850.0,"Midpoint between 773.15 and 923.15 K, between pressure levels, and between speed levels; sparse region."
+0,10,1,848.15,2750.0,600.0,Interior point between pressure levels and speed levels at intermediate temperature.
+0,10,2,998.15,1750.0,1050.0,"Gap between 923.15 and 1073.15 K, off-grid pressure and speed."
+0,10,3,998.15,2250.0,1150.0,"Interior point near high temperature and mid pressure, off-grid speed."
+0,10,4,823.15,2250.0,1100.0,"Between low and mid temperature, mid pressure, high speed; sparse."
+0,10,5,873.15,1750.0,500.0,"Low speed, low-mid pressure, intermediate temperature; fills gap."
+0,10,6,948.15,2750.0,950.0,"High pressure, mid-high temperature, mid speed; off-grid."
+0,10,7,798.15,2750.0,700.0,"Low temperature, high pressure, mid speed; sparse."
+0,10,8,1023.15,2000.0,450.0,"Near rated temperature, low speed, mid pressure; gap."
+0,10,9,898.15,2500.0,1250.0,"High speed, mid-high pressure, intermediate temperature; off-grid."
+0,10,10,773.15,2000.0,600.0,"Low temperature, mid pressure, low-mid speed; not in seeds."
+0,10,11,1073.15,2000.0,1000.0,"High temperature, mid pressure, mid-high speed; gap."
+0,10,12,848.15,1500.0,1100.0,"Low pressure, intermediate temperature, high speed; sparse."
+0,10,13,923.15,2250.0,700.0,"Mid temperature, mid-high pressure, low-mid speed; off-grid."
+0,10,14,998.15,3000.0,500.0,"High pressure, high temperature, low speed; gap."
+0,10,15,823.15,1750.0,900.0,"Low-mid temperature, low-mid pressure, mid speed; interior."
+0,10,16,873.15,3000.0,1200.0,"High pressure, intermediate temperature, high speed; sparse."
+0,10,17,948.15,1500.0,650.0,"Low pressure, mid-high temperature, low-mid speed; gap."
+0,10,18,798.15,2250.0,450.0,"Low temperature, mid pressure, low speed; off-grid."
+0,10,19,1023.15,2750.0,1150.0,"High temperature, high pressure, high speed; interior."
+0,10,20,898.15,2000.0,800.0,"Central point in box, off-grid; likely high uncertainty."
+0,10,21,773.15,2750.0,1000.0,"Low temperature, high pressure, mid-high speed; gap."
+0,10,22,1073.15,1750.0,550.0,"High temperature, low-mid pressure, low speed; sparse."
+0,10,23,848.15,2500.0,400.0,"Low speed, mid-high pressure, intermediate temperature; boundary gap."
+0,10,24,923.15,2000.0,1300.0,"High speed, mid pressure, mid temperature; boundary gap."
+0,10,25,998.15,2500.0,750.0,"Mid-high pressure, high temperature, mid speed; off-grid."
+0,10,26,823.15,3000.0,850.0,"High pressure, low-mid temperature, mid speed; sparse."
+0,10,27,873.15,2250.0,1050.0,"Mid pressure, intermediate temperature, mid-high speed; interior gap."
+0,11,0,773.15,2000.0,400.0,"Mid-pressure at low temperature and low speed, between existing pressure levels."
+0,11,1,773.15,2000.0,800.0,"Mid-pressure at low temperature and mid speed, sparse region."
+0,11,2,773.15,2000.0,1300.0,"Mid-pressure at low temperature and high speed, sparse region."
+0,11,3,773.15,2750.0,400.0,Between 2500 and 3000 kPa at low temperature and low speed.
+0,11,4,773.15,2750.0,800.0,Between 2500 and 3000 kPa at low temperature and mid speed.
+0,11,5,773.15,2750.0,1300.0,Between 2500 and 3000 kPa at low temperature and high speed.
+0,11,6,848.15,1500.0,400.0,Mid-temperature between 773 and 923 K at low pressure and low speed.
+0,11,7,848.15,1500.0,800.0,Mid-temperature between 773 and 923 K at low pressure and mid speed.
+0,11,8,848.15,1500.0,1300.0,Mid-temperature between 773 and 923 K at low pressure and high speed.
+0,11,9,848.15,2000.0,400.0,"Mid-temperature and mid-pressure, central sparse region."
+0,11,10,848.15,2000.0,800.0,"Mid-temperature and mid-pressure, central sparse region."
+0,11,11,848.15,2000.0,1300.0,"Mid-temperature and mid-pressure, central sparse region."
+0,11,12,848.15,2500.0,400.0,"Mid-temperature at 2500 kPa, between existing pressure levels."
+0,11,13,848.15,2500.0,800.0,"Mid-temperature at 2500 kPa, between existing pressure levels."
+0,11,14,848.15,2500.0,1300.0,"Mid-temperature at 2500 kPa, between existing pressure levels."
+0,11,15,848.15,3000.0,400.0,"Mid-temperature at high pressure, between existing temperature levels."
+0,11,16,848.15,3000.0,800.0,"Mid-temperature at high pressure, between existing temperature levels."
+0,11,17,848.15,3000.0,1300.0,"Mid-temperature at high pressure, between existing temperature levels."
+0,11,18,998.15,1500.0,400.0,Mid-temperature between 923 and 1073 K at low pressure and low speed.
+0,11,19,998.15,1500.0,800.0,Mid-temperature between 923 and 1073 K at low pressure and mid speed.
+0,11,20,998.15,1500.0,1300.0,Mid-temperature between 923 and 1073 K at low pressure and high speed.
+0,11,21,998.15,2000.0,400.0,"Mid-temperature and mid-pressure, sparse region."
+0,11,22,998.15,2000.0,800.0,"Mid-temperature and mid-pressure, sparse region."
+0,11,23,998.15,2000.0,1300.0,"Mid-temperature and mid-pressure, sparse region."
+0,11,24,998.15,2500.0,400.0,"Mid-temperature at 2500 kPa, between existing pressure levels."
+0,11,25,998.15,2500.0,800.0,"Mid-temperature at 2500 kPa, between existing pressure levels."
+0,11,26,998.15,2500.0,1300.0,"Mid-temperature at 2500 kPa, between existing pressure levels."
+0,11,27,998.15,3000.0,400.0,"Mid-temperature at high pressure, between existing temperature levels."
+0,12,0,773.15,2000.0,400.0,"Mid-pressure at low temperature and low speed, between existing p=1500 and p=2500 seeds."
+0,12,1,773.15,2000.0,800.0,"Mid-pressure at low temperature and mid speed, between existing p=1500 and p=2500 seeds."
+0,12,2,773.15,2000.0,1300.0,"Mid-pressure at low temperature and high speed, between existing p=1500 and p=2500 seeds."
+0,12,3,773.15,2750.0,400.0,Between p=2500 and p=3000 at low temperature and low speed.
+0,12,4,773.15,2750.0,800.0,Between p=2500 and p=3000 at low temperature and mid speed.
+0,12,5,773.15,2750.0,1300.0,Between p=2500 and p=3000 at low temperature and high speed.
+0,12,6,848.15,1500.0,400.0,Mid-temperature between 773 and 923 K at low pressure and low speed.
+0,12,7,848.15,1500.0,800.0,Mid-temperature between 773 and 923 K at low pressure and mid speed.
+0,12,8,848.15,1500.0,1300.0,Mid-temperature between 773 and 923 K at low pressure and high speed.
+0,12,9,848.15,2500.0,400.0,Mid-temperature between 773 and 923 K at mid pressure and low speed.
+0,12,10,848.15,2500.0,800.0,Mid-temperature between 773 and 923 K at mid pressure and mid speed.
+0,12,11,848.15,2500.0,1300.0,Mid-temperature between 773 and 923 K at mid pressure and high speed.
+0,12,12,848.15,3000.0,400.0,Mid-temperature between 773 and 923 K at high pressure and low speed.
+0,12,13,848.15,3000.0,800.0,Mid-temperature between 773 and 923 K at high pressure and mid speed.
+0,12,14,848.15,3000.0,1300.0,Mid-temperature between 773 and 923 K at high pressure and high speed.
+0,12,15,998.15,1500.0,400.0,Mid-temperature between 923 and 1073 K at low pressure and low speed.
+0,12,16,998.15,1500.0,800.0,Mid-temperature between 923 and 1073 K at low pressure and mid speed.
+0,12,17,998.15,1500.0,1300.0,Mid-temperature between 923 and 1073 K at low pressure and high speed.
+0,12,18,998.15,2500.0,400.0,Mid-temperature between 923 and 1073 K at mid pressure and low speed.
+0,12,19,998.15,2500.0,800.0,Mid-temperature between 923 and 1073 K at mid pressure and mid speed.
+0,12,20,998.15,2500.0,1300.0,Mid-temperature between 923 and 1073 K at mid pressure and high speed.
+0,12,21,998.15,3000.0,400.0,Mid-temperature between 923 and 1073 K at high pressure and low speed.
+0,12,22,998.15,3000.0,800.0,Mid-temperature between 923 and 1073 K at high pressure and mid speed.
+0,12,23,998.15,3000.0,1300.0,Mid-temperature between 923 and 1073 K at high pressure and high speed.
+0,12,24,923.15,2000.0,400.0,"Mid-pressure at 923 K, between p=1500 and p=2500 seeds."
+0,12,25,923.15,2000.0,800.0,"Mid-pressure at 923 K, between p=1500 and p=2500 seeds."
+0,12,26,923.15,2000.0,1300.0,"Mid-pressure at 923 K, between p=1500 and p=2500 seeds."
+0,12,27,1073.15,2000.0,400.0,"Mid-pressure at 1073 K, between p=1500 and p=2500 seeds."
+0,13,0,773.15,2000.0,400.0,"Mid-pressure between 1500 and 2500 at low Ts and low N, where power vs p is nonlinear."
+0,13,1,773.15,2000.0,800.0,"Mid-pressure at low Ts and mid N, filling gap in p for N=800."
+0,13,2,773.15,2000.0,1300.0,"Mid-pressure at low Ts and high N, capturing p effect at high speed."
+0,13,3,773.15,2750.0,400.0,"Between 2500 and 3000 kPa at low Ts and low N, where efficiency curve may bend."
+0,13,4,773.15,2750.0,800.0,Between 2500 and 3000 kPa at low Ts and mid N.
+0,13,5,773.15,2750.0,1300.0,Between 2500 and 3000 kPa at low Ts and high N.
+0,13,6,848.15,1500.0,400.0,"Mid-temperature between 773 and 923 at low p and low N, where Ts effect is strong."
+0,13,7,848.15,1500.0,800.0,Mid-temperature at low p and mid N.
+0,13,8,848.15,1500.0,1300.0,Mid-temperature at low p and high N.
+0,13,9,848.15,2500.0,400.0,"Mid-temperature at mid p and low N, filling large gap in Ts-p plane."
+0,13,10,848.15,2500.0,800.0,Mid-temperature at mid p and mid N.
+0,13,11,848.15,2500.0,1300.0,Mid-temperature at mid p and high N.
+0,13,12,848.15,3000.0,400.0,Mid-temperature at high p and low N.
+0,13,13,848.15,3000.0,800.0,Mid-temperature at high p and mid N.
+0,13,14,848.15,3000.0,1300.0,Mid-temperature at high p and high N.
+0,13,15,998.15,1500.0,400.0,Mid-temperature between 923 and 1073 at low p and low N.
+0,13,16,998.15,1500.0,800.0,Mid-temperature at low p and mid N.
+0,13,17,998.15,1500.0,1300.0,Mid-temperature at low p and high N.
+0,13,18,998.15,2500.0,400.0,Mid-temperature at mid p and low N.
+0,13,19,998.15,2500.0,800.0,Mid-temperature at mid p and mid N.
+0,13,20,998.15,2500.0,1300.0,Mid-temperature at mid p and high N.
+0,13,21,998.15,3000.0,400.0,Mid-temperature at high p and low N.
+0,13,22,998.15,3000.0,800.0,Mid-temperature at high p and mid N.
+0,13,23,998.15,3000.0,1300.0,Mid-temperature at high p and high N.
+0,13,24,1073.15,2000.0,400.0,"Mid-pressure at high Ts and low N, filling gap in p at high Ts."
+0,13,25,1073.15,2000.0,800.0,Mid-pressure at high Ts and mid N.
+0,13,26,1073.15,2000.0,1300.0,Mid-pressure at high Ts and high N.
+0,13,27,1073.15,2750.0,400.0,Between 2500 and 3000 kPa at high Ts and low N.
+0,14,0,773.15,2000.0,400.0,"Mid-pressure at low temperature and low speed, between existing p=1500 and p=2500 seeds."
+0,14,1,773.15,2000.0,800.0,"Mid-pressure at low temperature and mid speed, between existing p=1500 and p=2500 seeds."
+0,14,2,773.15,2000.0,1300.0,"Mid-pressure at low temperature and high speed, between existing p=1500 and p=2500 seeds."
+0,14,3,773.15,2750.0,400.0,Between p=2500 and p=3000 at low temperature and low speed.
+0,14,4,773.15,2750.0,800.0,Between p=2500 and p=3000 at low temperature and mid speed.
+0,14,5,773.15,2750.0,1300.0,Between p=2500 and p=3000 at low temperature and high speed.
+0,14,6,848.15,1500.0,400.0,Mid-temperature between 773 and 923 K at low pressure and low speed.
+0,14,7,848.15,1500.0,800.0,Mid-temperature between 773 and 923 K at low pressure and mid speed.
+0,14,8,848.15,1500.0,1300.0,Mid-temperature between 773 and 923 K at low pressure and high speed.
+0,14,9,848.15,2500.0,400.0,Mid-temperature between 773 and 923 K at mid pressure and low speed.
+0,14,10,848.15,2500.0,800.0,Mid-temperature between 773 and 923 K at mid pressure and mid speed.
+0,14,11,848.15,2500.0,1300.0,Mid-temperature between 773 and 923 K at mid pressure and high speed.
+0,14,12,848.15,3000.0,400.0,Mid-temperature between 773 and 923 K at high pressure and low speed.
+0,14,13,848.15,3000.0,800.0,Mid-temperature between 773 and 923 K at high pressure and mid speed.
+0,14,14,848.15,3000.0,1300.0,Mid-temperature between 773 and 923 K at high pressure and high speed.
+0,14,15,998.15,1500.0,400.0,Mid-temperature between 923 and 1073 K at low pressure and low speed.
+0,14,16,998.15,1500.0,800.0,Mid-temperature between 923 and 1073 K at low pressure and mid speed.
+0,14,17,998.15,1500.0,1300.0,Mid-temperature between 923 and 1073 K at low pressure and high speed.
+0,14,18,998.15,2500.0,400.0,Mid-temperature between 923 and 1073 K at mid pressure and low speed.
+0,14,19,998.15,2500.0,800.0,Mid-temperature between 923 and 1073 K at mid pressure and mid speed.
+0,14,20,998.15,2500.0,1300.0,Mid-temperature between 923 and 1073 K at mid pressure and high speed.
+0,14,21,998.15,3000.0,400.0,Mid-temperature between 923 and 1073 K at high pressure and low speed.
+0,14,22,998.15,3000.0,800.0,Mid-temperature between 923 and 1073 K at high pressure and mid speed.
+0,14,23,998.15,3000.0,1300.0,Mid-temperature between 923 and 1073 K at high pressure and high speed.
+0,14,24,1073.15,2000.0,400.0,"Mid-pressure at high temperature and low speed, between existing p=1500 and p=2500 seeds."
+0,14,25,1073.15,2000.0,800.0,"Mid-pressure at high temperature and mid speed, between existing p=1500 and p=2500 seeds."
+0,14,26,1073.15,2000.0,1300.0,"Mid-pressure at high temperature and high speed, between existing p=1500 and p=2500 seeds."
+0,14,27,1073.15,2750.0,800.0,"Between p=2500 and p=3000 at high temperature and mid speed, near rated condition."
+0,15,0,773.15,2000.0,400.0,"Mid-pressure at low temperature and low speed, between seed grid points."
+0,15,1,773.15,2000.0,800.0,"Mid-pressure at low temperature and mid speed, between seed grid points."
+0,15,2,773.15,2000.0,1300.0,"Mid-pressure at low temperature and high speed, between seed grid points."
+0,15,3,773.15,2750.0,400.0,Between 2500 and 3000 kPa at low temperature and low speed.
+0,15,4,773.15,2750.0,800.0,Between 2500 and 3000 kPa at low temperature and mid speed.
+0,15,5,773.15,2750.0,1300.0,Between 2500 and 3000 kPa at low temperature and high speed.
+0,15,6,848.15,1500.0,400.0,Mid-temperature between 773 and 923 K at low pressure and low speed.
+0,15,7,848.15,1500.0,800.0,Mid-temperature between 773 and 923 K at low pressure and mid speed.
+0,15,8,848.15,1500.0,1300.0,Mid-temperature between 773 and 923 K at low pressure and high speed.
+0,15,9,848.15,2500.0,400.0,Mid-temperature between 773 and 923 K at mid pressure and low speed.
+0,15,10,848.15,2500.0,800.0,Mid-temperature between 773 and 923 K at mid pressure and mid speed.
+0,15,11,848.15,2500.0,1300.0,Mid-temperature between 773 and 923 K at mid pressure and high speed.
+0,15,12,848.15,3000.0,400.0,Mid-temperature between 773 and 923 K at high pressure and low speed.
+0,15,13,848.15,3000.0,800.0,Mid-temperature between 773 and 923 K at high pressure and mid speed.
+0,15,14,848.15,3000.0,1300.0,Mid-temperature between 773 and 923 K at high pressure and high speed.
+0,15,15,998.15,1500.0,400.0,Mid-temperature between 923 and 1073 K at low pressure and low speed.
+0,15,16,998.15,1500.0,800.0,Mid-temperature between 923 and 1073 K at low pressure and mid speed.
+0,15,17,998.15,1500.0,1300.0,Mid-temperature between 923 and 1073 K at low pressure and high speed.
+0,15,18,998.15,2500.0,400.0,Mid-temperature between 923 and 1073 K at mid pressure and low speed.
+0,15,19,998.15,2500.0,800.0,Mid-temperature between 923 and 1073 K at mid pressure and mid speed.
+0,15,20,998.15,2500.0,1300.0,Mid-temperature between 923 and 1073 K at mid pressure and high speed.
+0,15,21,998.15,3000.0,400.0,Mid-temperature between 923 and 1073 K at high pressure and low speed.
+0,15,22,998.15,3000.0,800.0,Mid-temperature between 923 and 1073 K at high pressure and mid speed.
+0,15,23,998.15,3000.0,1300.0,Mid-temperature between 923 and 1073 K at high pressure and high speed.
+0,15,24,1073.15,2000.0,400.0,"Mid-pressure at high temperature and low speed, between seed grid points."
+0,15,25,1073.15,2000.0,800.0,"Mid-pressure at high temperature and mid speed, between seed grid points."
+0,15,26,1073.15,2000.0,1300.0,"Mid-pressure at high temperature and high speed, between seed grid points."
+0,15,27,1073.15,2750.0,400.0,Between 2500 and 3000 kPa at high temperature and low speed.
+0,16,0,773.15,2000.0,400.0,"Mid-pressure at lowest temperature and low speed, between existing 1500 and 2500 kPa seeds."
+0,16,1,773.15,2000.0,800.0,"Mid-pressure at lowest temperature and mid speed, between existing 1500 and 2500 kPa seeds."
+0,16,2,773.15,2000.0,1300.0,"Mid-pressure at lowest temperature and high speed, between existing 1500 and 2500 kPa seeds."
+0,16,3,773.15,2750.0,400.0,Between 2500 and 3000 kPa at lowest temperature and low speed.
+0,16,4,773.15,2750.0,800.0,Between 2500 and 3000 kPa at lowest temperature and mid speed.
+0,16,5,773.15,2750.0,1300.0,Between 2500 and 3000 kPa at lowest temperature and high speed.
+0,16,6,848.15,1500.0,400.0,Mid-temperature between 773 and 923 K at lowest pressure and low speed.
+0,16,7,848.15,1500.0,800.0,Mid-temperature between 773 and 923 K at lowest pressure and mid speed.
+0,16,8,848.15,1500.0,1300.0,Mid-temperature between 773 and 923 K at lowest pressure and high speed.
+0,16,9,848.15,2000.0,400.0,"Interior point between temperature and pressure levels, low speed."
+0,16,10,848.15,2000.0,800.0,"Interior point between temperature and pressure levels, mid speed."
+0,16,11,848.15,2000.0,1300.0,"Interior point between temperature and pressure levels, high speed."
+0,16,12,848.15,2750.0,400.0,"Mid-temperature, between 2500 and 3000 kPa, low speed."
+0,16,13,848.15,2750.0,800.0,"Mid-temperature, between 2500 and 3000 kPa, mid speed."
+0,16,14,848.15,2750.0,1300.0,"Mid-temperature, between 2500 and 3000 kPa, high speed."
+0,16,15,923.15,2000.0,400.0,"Mid-pressure at 923 K, between existing 1500 and 2500 kPa seeds."
+0,16,16,923.15,2000.0,800.0,"Mid-pressure at 923 K, between existing 1500 and 2500 kPa seeds."
+0,16,17,923.15,2000.0,1300.0,"Mid-pressure at 923 K, between existing 1500 and 2500 kPa seeds."
+0,16,18,923.15,2750.0,400.0,"Between 2500 and 3000 kPa at 923 K, low speed."
+0,16,19,923.15,2750.0,800.0,"Between 2500 and 3000 kPa at 923 K, mid speed."
+0,16,20,923.15,2750.0,1300.0,"Between 2500 and 3000 kPa at 923 K, high speed."
+0,16,21,998.15,1500.0,400.0,"Mid-temperature between 923 and 1073 K at lowest pressure, low speed."
+0,16,22,998.15,1500.0,800.0,"Mid-temperature between 923 and 1073 K at lowest pressure, mid speed."
+0,16,23,998.15,1500.0,1300.0,"Mid-temperature between 923 and 1073 K at lowest pressure, high speed."
+0,16,24,998.15,2000.0,400.0,"Interior point between temperature and pressure levels, low speed."
+0,16,25,998.15,2000.0,800.0,"Interior point between temperature and pressure levels, mid speed."
+0,16,26,998.15,2000.0,1300.0,"Interior point between temperature and pressure levels, high speed."
+0,16,27,998.15,2750.0,400.0,"Mid-temperature, between 2500 and 3000 kPa, low speed."
+0,17,0,773.15,2000.0,400.0,"Mid-pressure at low temperature and low speed, between existing p=1500 and p=2500 seeds."
+0,17,1,773.15,2000.0,800.0,"Mid-pressure at low temperature and mid speed, between existing p=1500 and p=2500 seeds."
+0,17,2,773.15,2000.0,1300.0,"Mid-pressure at low temperature and high speed, between existing p=1500 and p=2500 seeds."
+0,17,3,773.15,2750.0,400.0,Between p=2500 and p=3000 at low temperature and low speed.
+0,17,4,773.15,2750.0,800.0,Between p=2500 and p=3000 at low temperature and mid speed.
+0,17,5,773.15,2750.0,1300.0,Between p=2500 and p=3000 at low temperature and high speed.
+0,17,6,848.15,1500.0,400.0,Mid-temperature between 773 and 923 K at low pressure and low speed.
+0,17,7,848.15,1500.0,800.0,Mid-temperature between 773 and 923 K at low pressure and mid speed.
+0,17,8,848.15,1500.0,1300.0,Mid-temperature between 773 and 923 K at low pressure and high speed.
+0,17,9,848.15,2500.0,400.0,Mid-temperature between 773 and 923 K at mid pressure and low speed.
+0,17,10,848.15,2500.0,800.0,Mid-temperature between 773 and 923 K at mid pressure and mid speed.
+0,17,11,848.15,2500.0,1300.0,Mid-temperature between 773 and 923 K at mid pressure and high speed.
+0,17,12,848.15,3000.0,400.0,Mid-temperature between 773 and 923 K at high pressure and low speed.
+0,17,13,848.15,3000.0,800.0,Mid-temperature between 773 and 923 K at high pressure and mid speed.
+0,17,14,848.15,3000.0,1300.0,Mid-temperature between 773 and 923 K at high pressure and high speed.
+0,17,15,998.15,1500.0,400.0,Mid-temperature between 923 and 1073 K at low pressure and low speed.
+0,17,16,998.15,1500.0,800.0,Mid-temperature between 923 and 1073 K at low pressure and mid speed.
+0,17,17,998.15,1500.0,1300.0,Mid-temperature between 923 and 1073 K at low pressure and high speed.
+0,17,18,998.15,2500.0,400.0,Mid-temperature between 923 and 1073 K at mid pressure and low speed.
+0,17,19,998.15,2500.0,800.0,Mid-temperature between 923 and 1073 K at mid pressure and mid speed.
+0,17,20,998.15,2500.0,1300.0,Mid-temperature between 923 and 1073 K at mid pressure and high speed.
+0,17,21,998.15,3000.0,400.0,Mid-temperature between 923 and 1073 K at high pressure and low speed.
+0,17,22,998.15,3000.0,800.0,Mid-temperature between 923 and 1073 K at high pressure and mid speed.
+0,17,23,998.15,3000.0,1300.0,Mid-temperature between 923 and 1073 K at high pressure and high speed.
+0,17,24,1073.15,2000.0,400.0,"Mid-pressure at high temperature and low speed, between existing p=1500 and p=2500 seeds."
+0,17,25,1073.15,2000.0,800.0,"Mid-pressure at high temperature and mid speed, between existing p=1500 and p=2500 seeds."
+0,17,26,1073.15,2000.0,1300.0,"Mid-pressure at high temperature and high speed, between existing p=1500 and p=2500 seeds."
+0,17,27,1073.15,2750.0,400.0,Between p=2500 and p=3000 at high temperature and low speed.
+0,18,0,773.15,2000.0,400.0,"Mid-pressure at low temperature and low speed, between existing p=1500 and p=2500 seeds."
+0,18,1,773.15,2000.0,800.0,"Mid-pressure at low temperature and mid speed, filling gap."
+0,18,2,773.15,2000.0,1300.0,"Mid-pressure at low temperature and high speed, filling gap."
+0,18,3,773.15,2750.0,400.0,"Between p=2500 and p=3000 at low temperature, low speed."
+0,18,4,773.15,2750.0,800.0,"Between p=2500 and p=3000 at low temperature, mid speed."
+0,18,5,773.15,2750.0,1300.0,"Between p=2500 and p=3000 at low temperature, high speed."
+0,18,6,848.15,1500.0,400.0,"Mid-temperature between 773 and 923 at low pressure, low speed."
+0,18,7,848.15,1500.0,800.0,"Mid-temperature at low pressure, mid speed."
+0,18,8,848.15,1500.0,1300.0,"Mid-temperature at low pressure, high speed."
+0,18,9,848.15,2500.0,400.0,"Mid-temperature at mid pressure, low speed."
+0,18,10,848.15,2500.0,800.0,"Mid-temperature at mid pressure, mid speed."
+0,18,11,848.15,2500.0,1300.0,"Mid-temperature at mid pressure, high speed."
+0,18,12,848.15,3000.0,400.0,"Mid-temperature at high pressure, low speed."
+0,18,13,848.15,3000.0,800.0,"Mid-temperature at high pressure, mid speed."
+0,18,14,848.15,3000.0,1300.0,"Mid-temperature at high pressure, high speed."
+0,18,15,998.15,1500.0,400.0,"Mid-temperature between 923 and 1073 at low pressure, low speed."
+0,18,16,998.15,1500.0,800.0,"Mid-temperature at low pressure, mid speed."
+0,18,17,998.15,1500.0,1300.0,"Mid-temperature at low pressure, high speed."
+0,18,18,998.15,2500.0,400.0,"Mid-temperature at mid pressure, low speed."
+0,18,19,998.15,2500.0,800.0,"Mid-temperature at mid pressure, mid speed."
+0,18,20,998.15,2500.0,1300.0,"Mid-temperature at mid pressure, high speed."
+0,18,21,998.15,3000.0,400.0,"Mid-temperature at high pressure, low speed."
+0,18,22,998.15,3000.0,800.0,"Mid-temperature at high pressure, mid speed."
+0,18,23,998.15,3000.0,1300.0,"Mid-temperature at high pressure, high speed."
+0,18,24,1073.15,2000.0,400.0,"Mid-pressure at high temperature and low speed, between existing p=1500 and p=2500 seeds."
+0,18,25,1073.15,2000.0,800.0,Mid-pressure at high temperature and mid speed.
+0,18,26,1073.15,2000.0,1300.0,Mid-pressure at high temperature and high speed.
+0,18,27,1073.15,2750.0,400.0,"Between p=2500 and p=3000 at high temperature, low speed."
+0,19,0,773.15,2000.0,400.0,"Mid-pressure at low temperature and low speed, between existing p=1500 and p=2500 seeds."
+0,19,1,773.15,2000.0,800.0,"Mid-pressure at low temperature and mid speed, fills gap in pressure dimension."
+0,19,2,773.15,2000.0,1300.0,"Mid-pressure at low temperature and high speed, completes pressure interpolation at low Ts."
+0,19,3,773.15,2750.0,400.0,"Between p=2500 and p=3000 at low Ts and low speed, captures nonlinearity."
+0,19,4,773.15,2750.0,800.0,Between p=2500 and p=3000 at low Ts and mid speed.
+0,19,5,773.15,2750.0,1300.0,Between p=2500 and p=3000 at low Ts and high speed.
+0,19,6,848.15,1500.0,400.0,Mid-temperature between 773 and 923 at low pressure and low speed.
+0,19,7,848.15,1500.0,800.0,Mid-temperature at low pressure and mid speed.
+0,19,8,848.15,1500.0,1300.0,Mid-temperature at low pressure and high speed.
+0,19,9,848.15,2000.0,400.0,"Mid-temperature and mid-pressure at low speed, central gap."
+0,19,10,848.15,2000.0,800.0,Central point in temperature-pressure plane at mid speed.
+0,19,11,848.15,2000.0,1300.0,Central point at high speed.
+0,19,12,848.15,2500.0,400.0,"Mid-temperature at p=2500, low speed, between existing seeds."
+0,19,13,848.15,2500.0,800.0,"Mid-temperature at p=2500, mid speed."
+0,19,14,848.15,2500.0,1300.0,"Mid-temperature at p=2500, high speed."
+0,19,15,848.15,2750.0,400.0,"Mid-temperature between p=2500 and p=3000, low speed."
+0,19,16,848.15,2750.0,800.0,"Mid-temperature between p=2500 and p=3000, mid speed."
+0,19,17,848.15,2750.0,1300.0,"Mid-temperature between p=2500 and p=3000, high speed."
+0,19,18,998.15,1500.0,400.0,Mid-temperature between 923 and 1073 at low pressure and low speed.
+0,19,19,998.15,1500.0,800.0,Mid-temperature at low pressure and mid speed.
+0,19,20,998.15,1500.0,1300.0,Mid-temperature at low pressure and high speed.
+0,19,21,998.15,2000.0,400.0,Mid-temperature and mid-pressure at low speed.
+0,19,22,998.15,2000.0,800.0,Mid-temperature and mid-pressure at mid speed.
+0,19,23,998.15,2000.0,1300.0,Mid-temperature and mid-pressure at high speed.
+0,19,24,998.15,2500.0,400.0,"Mid-temperature at p=2500, low speed."
+0,19,25,998.15,2500.0,800.0,"Mid-temperature at p=2500, mid speed."
+0,19,26,998.15,2500.0,1300.0,"Mid-temperature at p=2500, high speed."
+0,19,27,998.15,2750.0,400.0,"Mid-temperature between p=2500 and p=3000, low speed."
+0,20,0,773.15,2000.0,400.0,"Mid-pressure at low temperature and low speed, between existing pressure levels."
+0,20,1,773.15,2000.0,800.0,"Mid-pressure at low temperature and mid speed, filling gap."
+0,20,2,773.15,2000.0,1300.0,"Mid-pressure at low temperature and high speed, filling gap."
+0,20,3,773.15,2750.0,400.0,Between 2500 and 3000 kPa at low temperature and low speed.
+0,20,4,773.15,2750.0,800.0,Between 2500 and 3000 kPa at low temperature and mid speed.
+0,20,5,773.15,2750.0,1300.0,Between 2500 and 3000 kPa at low temperature and high speed.
+0,20,6,848.15,1500.0,400.0,Mid-temperature between 773 and 923 K at low pressure and low speed.
+0,20,7,848.15,1500.0,800.0,Mid-temperature between 773 and 923 K at low pressure and mid speed.
+0,20,8,848.15,1500.0,1300.0,Mid-temperature between 773 and 923 K at low pressure and high speed.
+0,20,9,848.15,2500.0,400.0,"Mid-temperature at mid pressure and low speed, central gap."
+0,20,10,848.15,2500.0,800.0,"Mid-temperature at mid pressure and mid speed, central gap."
+0,20,11,848.15,2500.0,1300.0,"Mid-temperature at mid pressure and high speed, central gap."
+0,20,12,848.15,3000.0,400.0,Mid-temperature at high pressure and low speed.
+0,20,13,848.15,3000.0,800.0,Mid-temperature at high pressure and mid speed.
+0,20,14,848.15,3000.0,1300.0,Mid-temperature at high pressure and high speed.
+0,20,15,998.15,1500.0,400.0,Mid-temperature between 923 and 1073 K at low pressure and low speed.
+0,20,16,998.15,1500.0,800.0,Mid-temperature between 923 and 1073 K at low pressure and mid speed.
+0,20,17,998.15,1500.0,1300.0,Mid-temperature between 923 and 1073 K at low pressure and high speed.
+0,20,18,998.15,2500.0,400.0,"Mid-temperature at mid pressure and low speed, central gap."
+0,20,19,998.15,2500.0,800.0,"Mid-temperature at mid pressure and mid speed, central gap."
+0,20,20,998.15,2500.0,1300.0,"Mid-temperature at mid pressure and high speed, central gap."
+0,20,21,998.15,3000.0,400.0,Mid-temperature at high pressure and low speed.
+0,20,22,998.15,3000.0,800.0,Mid-temperature at high pressure and mid speed.
+0,20,23,998.15,3000.0,1300.0,Mid-temperature at high pressure and high speed.
+0,20,24,1073.15,2000.0,400.0,"Mid-pressure at high temperature and low speed, between existing pressure levels."
+0,20,25,1073.15,2000.0,800.0,"Mid-pressure at high temperature and mid speed, filling gap."
+0,20,26,1073.15,2000.0,1300.0,"Mid-pressure at high temperature and high speed, filling gap."
+0,20,27,1073.15,2750.0,400.0,Between 2500 and 3000 kPa at high temperature and low speed.
+0,21,0,848.15,2000.0,600.0,"Midpoint between temperature levels 773 and 923, pressure between 1500 and 2500, speed between 400 and 800. Sparse region with potential nonlinearity."
+0,21,1,848.15,2000.0,1050.0,"Midpoint between temperature levels, pressure between 1500 and 2500, speed between 800 and 1300. Fills gap in speed dimension."
+0,21,2,848.15,2750.0,600.0,"Midpoint temperature, pressure between 2500 and 3000, speed between 400 and 800. Sparse high-pressure region."
+0,21,3,848.15,2750.0,1050.0,"Midpoint temperature, pressure between 2500 and 3000, speed between 800 and 1300. Fills high-pressure, mid-speed gap."
+0,21,4,998.15,2000.0,600.0,"Midpoint between 923 and 1073, pressure between 1500 and 2500, speed between 400 and 800. Sparse region."
+0,21,5,998.15,2000.0,1050.0,"Midpoint between 923 and 1073, pressure between 1500 and 2500, speed between 800 and 1300. Fills gap."
+0,21,6,998.15,2750.0,600.0,"Midpoint temperature, pressure between 2500 and 3000, speed between 400 and 800. Sparse high-pressure region."
+0,21,7,998.15,2750.0,1050.0,"Midpoint temperature, pressure between 2500 and 3000, speed between 800 and 1300. Fills high-pressure, mid-speed gap."
+0,21,8,773.15,2000.0,600.0,"Low temperature, mid pressure, mid speed. Sparse between seed pressure levels."
+0,21,9,773.15,2000.0,1050.0,"Low temperature, mid pressure, high-mid speed. Fills gap."
+0,21,10,773.15,2750.0,600.0,"Low temperature, high-mid pressure, mid speed. Sparse."
+0,21,11,773.15,2750.0,1050.0,"Low temperature, high-mid pressure, high-mid speed. Fills gap."
+0,21,12,923.15,2000.0,600.0,"Mid temperature, mid pressure, mid speed. Sparse between seed pressure levels."
+0,21,13,923.15,2000.0,1050.0,"Mid temperature, mid pressure, high-mid speed. Fills gap."
+0,21,14,923.15,2750.0,600.0,"Mid temperature, high-mid pressure, mid speed. Sparse."
+0,21,15,923.15,2750.0,1050.0,"Mid temperature, high-mid pressure, high-mid speed. Fills gap."
+0,21,16,1073.15,2000.0,600.0,"High temperature, mid pressure, mid speed. Sparse between seed pressure levels."
+0,21,17,1073.15,2000.0,1050.0,"High temperature, mid pressure, high-mid speed. Fills gap."
+0,21,18,1073.15,2750.0,600.0,"High temperature, high-mid pressure, mid speed. Sparse."
+0,21,19,1073.15,2750.0,1050.0,"High temperature, high-mid pressure, high-mid speed. Fills gap."
+0,21,20,848.15,1500.0,600.0,"Mid temperature, low pressure, mid speed. Sparse between seed speed levels."
+0,21,21,848.15,1500.0,1050.0,"Mid temperature, low pressure, high-mid speed. Fills gap."
+0,21,22,848.15,3000.0,600.0,"Mid temperature, high pressure, mid speed. Sparse between seed speed levels."
+0,21,23,848.15,3000.0,1050.0,"Mid temperature, high pressure, high-mid speed. Fills gap."
+0,21,24,998.15,1500.0,600.0,"Mid-high temperature, low pressure, mid speed. Sparse."
+0,21,25,998.15,1500.0,1050.0,"Mid-high temperature, low pressure, high-mid speed. Fills gap."
+0,21,26,998.15,3000.0,600.0,"Mid-high temperature, high pressure, mid speed. Sparse."
+0,21,27,998.15,3000.0,1050.0,"Mid-high temperature, high pressure, high-mid speed. Fills gap."
+0,22,0,773.15,2000.0,400.0,"Mid-pressure at low temperature and low speed, between existing p=1500 and p=2500 seeds."
+0,22,1,773.15,2000.0,800.0,"Mid-pressure at low temperature and mid speed, filling gap in pressure dimension."
+0,22,2,773.15,2000.0,1300.0,"Mid-pressure at low temperature and high speed, completing pressure interpolation at low Ts."
+0,22,3,773.15,2750.0,400.0,Between p=2500 and p=3000 at low temperature and low speed.
+0,22,4,773.15,2750.0,800.0,Between p=2500 and p=3000 at low temperature and mid speed.
+0,22,5,773.15,2750.0,1300.0,Between p=2500 and p=3000 at low temperature and high speed.
+0,22,6,848.15,1500.0,400.0,Mid-temperature between 773 and 923 at low pressure and low speed.
+0,22,7,848.15,1500.0,800.0,Mid-temperature at low pressure and mid speed.
+0,22,8,848.15,1500.0,1300.0,Mid-temperature at low pressure and high speed.
+0,22,9,848.15,2500.0,400.0,Mid-temperature at mid pressure and low speed.
+0,22,10,848.15,2500.0,800.0,Mid-temperature at mid pressure and mid speed.
+0,22,11,848.15,2500.0,1300.0,Mid-temperature at mid pressure and high speed.
+0,22,12,848.15,3000.0,400.0,Mid-temperature at high pressure and low speed.
+0,22,13,848.15,3000.0,800.0,Mid-temperature at high pressure and mid speed.
+0,22,14,848.15,3000.0,1300.0,Mid-temperature at high pressure and high speed.
+0,22,15,998.15,1500.0,400.0,Mid-temperature between 923 and 1073 at low pressure and low speed.
+0,22,16,998.15,1500.0,800.0,Mid-temperature at low pressure and mid speed.
+0,22,17,998.15,1500.0,1300.0,Mid-temperature at low pressure and high speed.
+0,22,18,998.15,2500.0,400.0,Mid-temperature at mid pressure and low speed.
+0,22,19,998.15,2500.0,800.0,Mid-temperature at mid pressure and mid speed.
+0,22,20,998.15,2500.0,1300.0,Mid-temperature at mid pressure and high speed.
+0,22,21,998.15,3000.0,400.0,Mid-temperature at high pressure and low speed.
+0,22,22,998.15,3000.0,800.0,Mid-temperature at high pressure and mid speed.
+0,22,23,998.15,3000.0,1300.0,Mid-temperature at high pressure and high speed.
+0,22,24,1073.15,2000.0,400.0,"Mid-pressure at high temperature and low speed, between existing p=1500 and p=2500."
+0,22,25,1073.15,2000.0,800.0,Mid-pressure at high temperature and mid speed.
+0,22,26,1073.15,2000.0,1300.0,Mid-pressure at high temperature and high speed.
+0,22,27,1073.15,2750.0,400.0,Between p=2500 and p=3000 at high temperature and low speed.
+0,23,0,773.15,2000.0,400.0,"Mid-pressure at low temperature and low speed, between seed rows."
+0,23,1,773.15,2000.0,800.0,"Mid-pressure at low temperature and mid speed, between seed rows."
+0,23,2,773.15,2000.0,1300.0,"Mid-pressure at low temperature and high speed, between seed rows."
+0,23,3,773.15,2750.0,400.0,"Near high pressure at low temperature and low speed, between seed rows."
+0,23,4,773.15,2750.0,800.0,"Near high pressure at low temperature and mid speed, between seed rows."
+0,23,5,773.15,2750.0,1300.0,"Near high pressure at low temperature and high speed, between seed rows."
+0,23,6,848.15,1500.0,400.0,"Mid-temperature at low pressure and low speed, between seed rows."
+0,23,7,848.15,1500.0,800.0,"Mid-temperature at low pressure and mid speed, between seed rows."
+0,23,8,848.15,1500.0,1300.0,"Mid-temperature at low pressure and high speed, between seed rows."
+0,23,9,848.15,2000.0,400.0,"Mid-temperature and mid-pressure at low speed, central gap."
+0,23,10,848.15,2000.0,800.0,"Mid-temperature and mid-pressure at mid speed, central gap."
+0,23,11,848.15,2000.0,1300.0,"Mid-temperature and mid-pressure at high speed, central gap."
+0,23,12,848.15,2500.0,400.0,"Mid-temperature at mid-high pressure and low speed, between seed rows."
+0,23,13,848.15,2500.0,800.0,"Mid-temperature at mid-high pressure and mid speed, between seed rows."
+0,23,14,848.15,2500.0,1300.0,"Mid-temperature at mid-high pressure and high speed, between seed rows."
+0,23,15,848.15,3000.0,400.0,"Mid-temperature at high pressure and low speed, between seed rows."
+0,23,16,848.15,3000.0,800.0,"Mid-temperature at high pressure and mid speed, between seed rows."
+0,23,17,848.15,3000.0,1300.0,"Mid-temperature at high pressure and high speed, between seed rows."
+0,23,18,998.15,1500.0,400.0,"Mid-high temperature at low pressure and low speed, between seed rows."
+0,23,19,998.15,1500.0,800.0,"Mid-high temperature at low pressure and mid speed, between seed rows."
+0,23,20,998.15,1500.0,1300.0,"Mid-high temperature at low pressure and high speed, between seed rows."
+0,23,21,998.15,2000.0,400.0,"Mid-high temperature and mid-pressure at low speed, central gap."
+0,23,22,998.15,2000.0,800.0,"Mid-high temperature and mid-pressure at mid speed, central gap."
+0,23,23,998.15,2000.0,1300.0,"Mid-high temperature and mid-pressure at high speed, central gap."
+0,23,24,998.15,2500.0,400.0,"Mid-high temperature at mid-high pressure and low speed, between seed rows."
+0,23,25,998.15,2500.0,800.0,"Mid-high temperature at mid-high pressure and mid speed, between seed rows."
+0,23,26,998.15,2500.0,1300.0,"Mid-high temperature at mid-high pressure and high speed, between seed rows."
+0,23,27,998.15,3000.0,400.0,"Mid-high temperature at high pressure and low speed, between seed rows."
+0,24,0,773.15,2000.0,400.0,"Mid-pressure at low temperature and low speed, between existing 1500 and 2500 kPa seeds."
+0,24,1,773.15,2000.0,800.0,"Mid-pressure at low temperature and mid speed, between existing 1500 and 2500 kPa seeds."
+0,24,2,773.15,2000.0,1300.0,"Mid-pressure at low temperature and high speed, between existing 1500 and 2500 kPa seeds."
+0,24,3,773.15,2750.0,400.0,Mid-pressure between 2500 and 3000 kPa at low temperature and low speed.
+0,24,4,773.15,2750.0,800.0,Mid-pressure between 2500 and 3000 kPa at low temperature and mid speed.
+0,24,5,773.15,2750.0,1300.0,Mid-pressure between 2500 and 3000 kPa at low temperature and high speed.
+0,24,6,848.15,1500.0,400.0,Mid-temperature between 773 and 923 K at low pressure and low speed.
+0,24,7,848.15,1500.0,800.0,Mid-temperature between 773 and 923 K at low pressure and mid speed.
+0,24,8,848.15,1500.0,1300.0,Mid-temperature between 773 and 923 K at low pressure and high speed.
+0,24,9,848.15,2500.0,400.0,Mid-temperature between 773 and 923 K at mid pressure and low speed.
+0,24,10,848.15,2500.0,800.0,Mid-temperature between 773 and 923 K at mid pressure and mid speed.
+0,24,11,848.15,2500.0,1300.0,Mid-temperature between 773 and 923 K at mid pressure and high speed.
+0,24,12,848.15,3000.0,400.0,Mid-temperature between 773 and 923 K at high pressure and low speed.
+0,24,13,848.15,3000.0,800.0,Mid-temperature between 773 and 923 K at high pressure and mid speed.
+0,24,14,848.15,3000.0,1300.0,Mid-temperature between 773 and 923 K at high pressure and high speed.
+0,24,15,998.15,1500.0,400.0,Mid-temperature between 923 and 1073 K at low pressure and low speed.
+0,24,16,998.15,1500.0,800.0,Mid-temperature between 923 and 1073 K at low pressure and mid speed.
+0,24,17,998.15,1500.0,1300.0,Mid-temperature between 923 and 1073 K at low pressure and high speed.
+0,24,18,998.15,2500.0,400.0,Mid-temperature between 923 and 1073 K at mid pressure and low speed.
+0,24,19,998.15,2500.0,800.0,Mid-temperature between 923 and 1073 K at mid pressure and mid speed.
+0,24,20,998.15,2500.0,1300.0,Mid-temperature between 923 and 1073 K at mid pressure and high speed.
+0,24,21,998.15,3000.0,400.0,Mid-temperature between 923 and 1073 K at high pressure and low speed.
+0,24,22,998.15,3000.0,800.0,Mid-temperature between 923 and 1073 K at high pressure and mid speed.
+0,24,23,998.15,3000.0,1300.0,Mid-temperature between 923 and 1073 K at high pressure and high speed.
+0,24,24,923.15,2000.0,400.0,"Mid-pressure at 923 K and low speed, between existing 1500 and 2500 kPa seeds."
+0,24,25,923.15,2000.0,800.0,"Mid-pressure at 923 K and mid speed, between existing 1500 and 2500 kPa seeds."
+0,24,26,923.15,2000.0,1300.0,"Mid-pressure at 923 K and high speed, between existing 1500 and 2500 kPa seeds."
+0,24,27,1073.15,2000.0,400.0,"Mid-pressure at high temperature and low speed, between existing 1500 and 2500 kPa seeds."
+0,25,0,773.15,2000.0,400.0,"Mid-pressure at low temperature and low speed, between existing p=1500 and p=2500 seeds."
+0,25,1,773.15,2000.0,800.0,"Mid-pressure at low temperature and mid speed, between existing p=1500 and p=2500 seeds."
+0,25,2,773.15,2000.0,1300.0,"Mid-pressure at low temperature and high speed, between existing p=1500 and p=2500 seeds."
+0,25,3,773.15,2750.0,400.0,Between p=2500 and p=3000 at low temperature and low speed.
+0,25,4,773.15,2750.0,800.0,Between p=2500 and p=3000 at low temperature and mid speed.
+0,25,5,773.15,2750.0,1300.0,Between p=2500 and p=3000 at low temperature and high speed.
+0,25,6,848.15,1500.0,400.0,Mid-temperature between 773 and 923 at low pressure and low speed.
+0,25,7,848.15,1500.0,800.0,Mid-temperature between 773 and 923 at low pressure and mid speed.
+0,25,8,848.15,1500.0,1300.0,Mid-temperature between 773 and 923 at low pressure and high speed.
+0,25,9,848.15,2500.0,400.0,Mid-temperature between 773 and 923 at mid pressure and low speed.
+0,25,10,848.15,2500.0,800.0,Mid-temperature between 773 and 923 at mid pressure and mid speed.
+0,25,11,848.15,2500.0,1300.0,Mid-temperature between 773 and 923 at mid pressure and high speed.
+0,25,12,848.15,3000.0,400.0,Mid-temperature between 773 and 923 at high pressure and low speed.
+0,25,13,848.15,3000.0,800.0,Mid-temperature between 773 and 923 at high pressure and mid speed.
+0,25,14,848.15,3000.0,1300.0,Mid-temperature between 773 and 923 at high pressure and high speed.
+0,25,15,998.15,1500.0,400.0,Mid-temperature between 923 and 1073 at low pressure and low speed.
+0,25,16,998.15,1500.0,800.0,Mid-temperature between 923 and 1073 at low pressure and mid speed.
+0,25,17,998.15,1500.0,1300.0,Mid-temperature between 923 and 1073 at low pressure and high speed.
+0,25,18,998.15,2500.0,400.0,Mid-temperature between 923 and 1073 at mid pressure and low speed.
+0,25,19,998.15,2500.0,800.0,Mid-temperature between 923 and 1073 at mid pressure and mid speed.
+0,25,20,998.15,2500.0,1300.0,Mid-temperature between 923 and 1073 at mid pressure and high speed.
+0,25,21,998.15,3000.0,400.0,Mid-temperature between 923 and 1073 at high pressure and low speed.
+0,25,22,998.15,3000.0,800.0,Mid-temperature between 923 and 1073 at high pressure and mid speed.
+0,25,23,998.15,3000.0,1300.0,Mid-temperature between 923 and 1073 at high pressure and high speed.
+0,25,24,1073.15,2000.0,400.0,"Mid-pressure at high temperature and low speed, between existing p=1500 and p=2500 seeds."
+0,25,25,1073.15,2000.0,800.0,"Mid-pressure at high temperature and mid speed, between existing p=1500 and p=2500 seeds."
+0,25,26,1073.15,2000.0,1300.0,"Mid-pressure at high temperature and high speed, between existing p=1500 and p=2500 seeds."
+0,25,27,1073.15,2750.0,400.0,Between p=2500 and p=3000 at high temperature and low speed.
+0,26,0,848.15,2000.0,850.0,"Midpoint between 773.15 and 923.15 K, between pressure levels, and between speed levels; sparse region."
+0,26,1,848.15,2750.0,600.0,"Interior point with non-seed pressure and speed, near high-efficiency region."
+0,26,2,998.15,1750.0,1100.0,"Between 923.15 and 1073.15 K, low pressure, high speed; unexplored."
+0,26,3,998.15,2250.0,450.0,"Mid temperature, mid pressure, low speed; likely high efficiency, sparse."
+0,26,4,848.15,1500.0,1050.0,"Low pressure, mid temperature, mid-high speed; gap between seed speeds."
+0,26,5,923.15,2000.0,1300.0,Seed temperature but new pressure and speed; tests interaction at high speed.
+0,26,6,773.15,2750.0,600.0,"Low temperature, high pressure, low speed; sparse corner."
+0,26,7,1073.15,1750.0,850.0,"High temperature, low pressure, mid speed; unexplored."
+0,26,8,848.15,3000.0,1000.0,"Mid temperature, max pressure, mid-high speed; gap."
+0,26,9,998.15,2500.0,700.0,"Mid-high temperature, mid pressure, low-mid speed; sparse."
+0,26,10,773.15,2000.0,1100.0,"Low temperature, mid pressure, high speed; unexplored."
+0,26,11,923.15,2750.0,400.0,"Seed temperature, new pressure, low speed; likely high efficiency."
+0,26,12,1073.15,2250.0,600.0,"High temperature, mid pressure, low speed; sparse."
+0,26,13,848.15,1750.0,1300.0,"Mid temperature, low-mid pressure, max speed; gap."
+0,26,14,998.15,3000.0,900.0,"Mid-high temperature, max pressure, mid-high speed; unexplored."
+0,26,15,773.15,2250.0,450.0,"Low temperature, mid pressure, low speed; sparse."
+0,26,16,923.15,1500.0,600.0,"Seed temperature, low pressure, low-mid speed; gap."
+0,26,17,1073.15,2750.0,1100.0,"High temperature, high pressure, high speed; sparse corner."
+0,26,18,848.15,2500.0,400.0,"Mid temperature, mid-high pressure, min speed; likely high efficiency."
+0,26,19,998.15,1500.0,700.0,"Mid-high temperature, low pressure, low-mid speed; unexplored."
+0,26,20,773.15,3000.0,850.0,"Low temperature, max pressure, mid speed; gap."
+0,26,21,923.15,2250.0,1000.0,"Seed temperature, new pressure, mid-high speed; sparse."
+0,26,22,1073.15,1500.0,450.0,"High temperature, low pressure, low speed; unexplored."
+0,26,23,848.15,3000.0,1300.0,"Mid temperature, max pressure, max speed; corner gap."
+0,26,24,998.15,2000.0,400.0,"Mid-high temperature, mid pressure, min speed; sparse."
+0,26,25,773.15,1750.0,700.0,"Low temperature, low-mid pressure, low-mid speed; unexplored."
+0,26,26,923.15,3000.0,1300.0,"Seed temperature, max pressure, max speed; gap."
+0,26,27,1073.15,2000.0,1000.0,"High temperature, mid pressure, mid-high speed; sparse."
+0,27,0,773.15,2000.0,400.0,"Mid pressure between 1500 and 2500 at low Ts and low N, sparse region."
+0,27,1,773.15,2000.0,800.0,"Mid pressure at low Ts and mid N, no seed at this combination."
+0,27,2,773.15,2000.0,1300.0,"Mid pressure at low Ts and high N, fills gap."
+0,27,3,773.15,2750.0,400.0,Between 2500 and 3000 pressure at low Ts and low N.
+0,27,4,773.15,2750.0,800.0,Between 2500 and 3000 pressure at low Ts and mid N.
+0,27,5,773.15,2750.0,1300.0,Between 2500 and 3000 pressure at low Ts and high N.
+0,27,6,848.15,1500.0,400.0,Mid Ts between 773 and 923 at low pressure and low N.
+0,27,7,848.15,1500.0,800.0,Mid Ts at low pressure and mid N.
+0,27,8,848.15,1500.0,1300.0,Mid Ts at low pressure and high N.
+0,27,9,848.15,2500.0,400.0,Mid Ts at mid pressure and low N.
+0,27,10,848.15,2500.0,800.0,Mid Ts at mid pressure and mid N.
+0,27,11,848.15,2500.0,1300.0,Mid Ts at mid pressure and high N.
+0,27,12,848.15,3000.0,400.0,Mid Ts at high pressure and low N.
+0,27,13,848.15,3000.0,800.0,Mid Ts at high pressure and mid N.
+0,27,14,848.15,3000.0,1300.0,Mid Ts at high pressure and high N.
+0,27,15,998.15,1500.0,400.0,Mid Ts between 923 and 1073 at low pressure and low N.
+0,27,16,998.15,1500.0,800.0,Mid Ts at low pressure and mid N.
+0,27,17,998.15,1500.0,1300.0,Mid Ts at low pressure and high N.
+0,27,18,998.15,2500.0,400.0,Mid Ts at mid pressure and low N.
+0,27,19,998.15,2500.0,800.0,Mid Ts at mid pressure and mid N.
+0,27,20,998.15,2500.0,1300.0,Mid Ts at mid pressure and high N.
+0,27,21,998.15,3000.0,400.0,Mid Ts at high pressure and low N.
+0,27,22,998.15,3000.0,800.0,Mid Ts at high pressure and mid N.
+0,27,23,998.15,3000.0,1300.0,Mid Ts at high pressure and high N.
+0,27,24,1073.15,2000.0,400.0,Mid pressure at high Ts and low N.
+0,27,25,1073.15,2000.0,800.0,Mid pressure at high Ts and mid N.
+0,27,26,1073.15,2000.0,1300.0,Mid pressure at high Ts and high N.
+0,27,27,1073.15,2750.0,400.0,Between 2500 and 3000 pressure at high Ts and low N.
+0,28,0,773.15,2000.0,600.0,"Midpoint between p=1500 and 2500 at Ts=773.15, N=600 fills gap in low temperature region."
+0,28,1,773.15,2000.0,1050.0,"Midpoint between p=1500 and 2500 at Ts=773.15, N=1050 fills gap in low temperature region."
+0,28,2,773.15,2750.0,600.0,"Midpoint between p=2500 and 3000 at Ts=773.15, N=600 fills gap in low temperature region."
+0,28,3,773.15,2750.0,1050.0,"Midpoint between p=2500 and 3000 at Ts=773.15, N=1050 fills gap in low temperature region."
+0,28,4,848.15,1500.0,600.0,"Midpoint between Ts=773.15 and 923.15 at p=1500, N=600 fills gap in low pressure region."
+0,28,5,848.15,1500.0,1050.0,"Midpoint between Ts=773.15 and 923.15 at p=1500, N=1050 fills gap in low pressure region."
+0,28,6,848.15,2500.0,600.0,"Midpoint between Ts=773.15 and 923.15 at p=2500, N=600 fills gap in medium pressure region."
+0,28,7,848.15,2500.0,1050.0,"Midpoint between Ts=773.15 and 923.15 at p=2500, N=1050 fills gap in medium pressure region."
+0,28,8,848.15,3000.0,600.0,"Midpoint between Ts=773.15 and 923.15 at p=3000, N=600 fills gap in high pressure region."
+0,28,9,848.15,3000.0,1050.0,"Midpoint between Ts=773.15 and 923.15 at p=3000, N=1050 fills gap in high pressure region."
+0,28,10,923.15,2000.0,600.0,"Midpoint between p=1500 and 2500 at Ts=923.15, N=600 fills gap in medium temperature region."
+0,28,11,923.15,2000.0,1050.0,"Midpoint between p=1500 and 2500 at Ts=923.15, N=1050 fills gap in medium temperature region."
+0,28,12,923.15,2750.0,600.0,"Midpoint between p=2500 and 3000 at Ts=923.15, N=600 fills gap in medium temperature region."
+0,28,13,923.15,2750.0,1050.0,"Midpoint between p=2500 and 3000 at Ts=923.15, N=1050 fills gap in medium temperature region."
+0,28,14,998.15,1500.0,600.0,"Midpoint between Ts=923.15 and 1073.15 at p=1500, N=600 fills gap in low pressure region."
+0,28,15,998.15,1500.0,1050.0,"Midpoint between Ts=923.15 and 1073.15 at p=1500, N=1050 fills gap in low pressure region."
+0,28,16,998.15,2500.0,600.0,"Midpoint between Ts=923.15 and 1073.15 at p=2500, N=600 fills gap in medium pressure region."
+0,28,17,998.15,2500.0,1050.0,"Midpoint between Ts=923.15 and 1073.15 at p=2500, N=1050 fills gap in medium pressure region."
+0,28,18,998.15,3000.0,600.0,"Midpoint between Ts=923.15 and 1073.15 at p=3000, N=600 fills gap in high pressure region."
+0,28,19,998.15,3000.0,1050.0,"Midpoint between Ts=923.15 and 1073.15 at p=3000, N=1050 fills gap in high pressure region."
+0,28,20,1073.15,2000.0,600.0,"Midpoint between p=1500 and 2500 at Ts=1073.15, N=600 fills gap in high temperature region."
+0,28,21,1073.15,2000.0,1050.0,"Midpoint between p=1500 and 2500 at Ts=1073.15, N=1050 fills gap in high temperature region."
+0,28,22,1073.15,2750.0,600.0,"Midpoint between p=2500 and 3000 at Ts=1073.15, N=600 fills gap in high temperature region."
+0,28,23,1073.15,2750.0,1050.0,"Midpoint between p=2500 and 3000 at Ts=1073.15, N=1050 fills gap in high temperature region."
+0,28,24,848.15,2000.0,850.0,"Central point in the box, away from seed grid, to capture interior behavior."
+0,28,25,848.15,2750.0,850.0,"Central point in the box, away from seed grid, to capture interior behavior."
+0,28,26,998.15,2000.0,850.0,"Central point in the box, away from seed grid, to capture interior behavior."
+0,28,27,998.15,2750.0,850.0,"Central point in the box, away from seed grid, to capture interior behavior."
+0,29,0,773.15,2000.0,400.0,"Mid-pressure at low temperature and low speed, between existing p=1500 and p=2500 seeds."
+0,29,1,773.15,2000.0,800.0,"Mid-pressure at low temperature and mid speed, filling gap between p=1500 and p=2500."
+0,29,2,773.15,2000.0,1300.0,"Mid-pressure at low temperature and high speed, between existing p=1500 and p=2500."
+0,29,3,773.15,2750.0,400.0,Between p=2500 and p=3000 at low temperature and low speed.
+0,29,4,773.15,2750.0,800.0,Between p=2500 and p=3000 at low temperature and mid speed.
+0,29,5,773.15,2750.0,1300.0,Between p=2500 and p=3000 at low temperature and high speed.
+0,29,6,848.15,1500.0,400.0,Mid-temperature between 773 and 923 at low pressure and low speed.
+0,29,7,848.15,1500.0,800.0,Mid-temperature between 773 and 923 at low pressure and mid speed.
+0,29,8,848.15,1500.0,1300.0,Mid-temperature between 773 and 923 at low pressure and high speed.
+0,29,9,848.15,2500.0,400.0,Mid-temperature between 773 and 923 at mid pressure and low speed.
+0,29,10,848.15,2500.0,800.0,Mid-temperature between 773 and 923 at mid pressure and mid speed.
+0,29,11,848.15,2500.0,1300.0,Mid-temperature between 773 and 923 at mid pressure and high speed.
+0,29,12,848.15,3000.0,400.0,Mid-temperature between 773 and 923 at high pressure and low speed.
+0,29,13,848.15,3000.0,800.0,Mid-temperature between 773 and 923 at high pressure and mid speed.
+0,29,14,848.15,3000.0,1300.0,Mid-temperature between 773 and 923 at high pressure and high speed.
+0,29,15,998.15,1500.0,400.0,Mid-temperature between 923 and 1073 at low pressure and low speed.
+0,29,16,998.15,1500.0,800.0,Mid-temperature between 923 and 1073 at low pressure and mid speed.
+0,29,17,998.15,1500.0,1300.0,Mid-temperature between 923 and 1073 at low pressure and high speed.
+0,29,18,998.15,2500.0,400.0,Mid-temperature between 923 and 1073 at mid pressure and low speed.
+0,29,19,998.15,2500.0,800.0,Mid-temperature between 923 and 1073 at mid pressure and mid speed.
+0,29,20,998.15,2500.0,1300.0,Mid-temperature between 923 and 1073 at mid pressure and high speed.
+0,29,21,998.15,3000.0,400.0,Mid-temperature between 923 and 1073 at high pressure and low speed.
+0,29,22,998.15,3000.0,800.0,Mid-temperature between 923 and 1073 at high pressure and mid speed.
+0,29,23,998.15,3000.0,1300.0,Mid-temperature between 923 and 1073 at high pressure and high speed.
+0,29,24,1073.15,2000.0,400.0,"Mid-pressure at high temperature and low speed, between p=1500 and p=2500."
+0,29,25,1073.15,2000.0,800.0,"Mid-pressure at high temperature and mid speed, between p=1500 and p=2500."
+0,29,26,1073.15,2000.0,1300.0,"Mid-pressure at high temperature and high speed, between p=1500 and p=2500."
+0,29,27,1073.15,2750.0,400.0,Between p=2500 and p=3000 at high temperature and low speed.
+0,30,0,823.15,2000.0,600.0,"Midpoint between 773.15 and 923.15 K, 1500 and 2500 kPa, 400 and 800 rpm; sparse region with likely nonlinear interaction."
+0,30,1,823.15,2000.0,1050.0,"Midpoint between 773.15 and 923.15 K, 1500 and 2500 kPa, 800 and 1300 rpm; fills gap in speed dimension."
+0,30,2,823.15,2750.0,600.0,"Midpoint between 773.15 and 923.15 K, 2500 and 3000 kPa, 400 and 800 rpm; explores high pressure at intermediate temperature."
+0,30,3,823.15,2750.0,1050.0,"Midpoint between 773.15 and 923.15 K, 2500 and 3000 kPa, 800 and 1300 rpm; covers high pressure and high speed."
+0,30,4,998.15,2000.0,600.0,"Midpoint between 923.15 and 1073.15 K, 1500 and 2500 kPa, 400 and 800 rpm; sparse region at high temperature."
+0,30,5,998.15,2000.0,1050.0,"Midpoint between 923.15 and 1073.15 K, 1500 and 2500 kPa, 800 and 1300 rpm; fills gap in speed."
+0,30,6,998.15,2750.0,600.0,"Midpoint between 923.15 and 1073.15 K, 2500 and 3000 kPa, 400 and 800 rpm; high pressure at high temperature."
+0,30,7,998.15,2750.0,1050.0,"Midpoint between 923.15 and 1073.15 K, 2500 and 3000 kPa, 800 and 1300 rpm; high pressure and high speed."
+0,30,8,848.15,2250.0,850.0,Interior point between all seed levels; likely high uncertainty due to interaction effects.
+0,30,9,948.15,2250.0,850.0,Interior point between all seed levels; fills central gap.
+0,30,10,898.15,1750.0,500.0,"Low pressure, low speed, intermediate temperature; sparse corner."
+0,30,11,898.15,1750.0,1200.0,"Low pressure, high speed, intermediate temperature; sparse corner."
+0,30,12,898.15,2875.0,500.0,"High pressure, low speed, intermediate temperature; sparse corner."
+0,30,13,898.15,2875.0,1200.0,"High pressure, high speed, intermediate temperature; sparse corner."
+0,30,14,773.15,2000.0,600.0,Between seed pressures at lowest temperature; fills gap.
+0,30,15,773.15,2000.0,1050.0,Between seed pressures at lowest temperature; fills gap.
+0,30,16,773.15,2750.0,600.0,Between seed pressures at lowest temperature; fills gap.
+0,30,17,773.15,2750.0,1050.0,Between seed pressures at lowest temperature; fills gap.
+0,30,18,1073.15,2000.0,600.0,Between seed pressures at highest temperature; fills gap.
+0,30,19,1073.15,2000.0,1050.0,Between seed pressures at highest temperature; fills gap.
+0,30,20,1073.15,2750.0,600.0,Between seed pressures at highest temperature; fills gap.
+0,30,21,1073.15,2750.0,1050.0,Between seed pressures at highest temperature; fills gap.
+0,30,22,848.15,1500.0,850.0,"Low pressure, intermediate temperature and speed; sparse."
+0,30,23,848.15,3000.0,850.0,"High pressure, intermediate temperature and speed; sparse."
+0,30,24,923.15,2250.0,400.0,"Low speed, intermediate pressure and temperature; sparse."
+0,30,25,923.15,2250.0,1300.0,"High speed, intermediate pressure and temperature; sparse."
+0,30,26,998.15,2250.0,850.0,Central point at high temperature; fills gap.
+0,30,27,823.15,2250.0,850.0,Central point at low temperature; fills gap.
+0,31,0,773.15,2000.0,400.0,"Mid-pressure at low temperature and low speed, between existing p=1500 and p=2500 seeds."
+0,31,1,773.15,2000.0,800.0,"Mid-pressure at low temperature and mid speed, between existing p=1500 and p=2500 seeds."
+0,31,2,773.15,2000.0,1300.0,"Mid-pressure at low temperature and high speed, between existing p=1500 and p=2500 seeds."
+0,31,3,773.15,2750.0,400.0,Between p=2500 and p=3000 at low temperature and low speed.
+0,31,4,773.15,2750.0,800.0,Between p=2500 and p=3000 at low temperature and mid speed.
+0,31,5,773.15,2750.0,1300.0,Between p=2500 and p=3000 at low temperature and high speed.
+0,31,6,848.15,1500.0,400.0,Mid-temperature between 773 and 923 at low pressure and low speed.
+0,31,7,848.15,1500.0,800.0,Mid-temperature between 773 and 923 at low pressure and mid speed.
+0,31,8,848.15,1500.0,1300.0,Mid-temperature between 773 and 923 at low pressure and high speed.
+0,31,9,848.15,2500.0,400.0,Mid-temperature between 773 and 923 at mid pressure and low speed.
+0,31,10,848.15,2500.0,800.0,Mid-temperature between 773 and 923 at mid pressure and mid speed.
+0,31,11,848.15,2500.0,1300.0,Mid-temperature between 773 and 923 at mid pressure and high speed.
+0,31,12,848.15,3000.0,400.0,Mid-temperature between 773 and 923 at high pressure and low speed.
+0,31,13,848.15,3000.0,800.0,Mid-temperature between 773 and 923 at high pressure and mid speed.
+0,31,14,848.15,3000.0,1300.0,Mid-temperature between 773 and 923 at high pressure and high speed.
+0,31,15,998.15,1500.0,400.0,Mid-temperature between 923 and 1073 at low pressure and low speed.
+0,31,16,998.15,1500.0,800.0,Mid-temperature between 923 and 1073 at low pressure and mid speed.
+0,31,17,998.15,1500.0,1300.0,Mid-temperature between 923 and 1073 at low pressure and high speed.
+0,31,18,998.15,2500.0,400.0,Mid-temperature between 923 and 1073 at mid pressure and low speed.
+0,31,19,998.15,2500.0,800.0,Mid-temperature between 923 and 1073 at mid pressure and mid speed.
+0,31,20,998.15,2500.0,1300.0,Mid-temperature between 923 and 1073 at mid pressure and high speed.
+0,31,21,998.15,3000.0,400.0,Mid-temperature between 923 and 1073 at high pressure and low speed.
+0,31,22,998.15,3000.0,800.0,Mid-temperature between 923 and 1073 at high pressure and mid speed.
+0,31,23,998.15,3000.0,1300.0,Mid-temperature between 923 and 1073 at high pressure and high speed.
+0,31,24,1073.15,2000.0,400.0,"Mid-pressure at high temperature and low speed, between existing p=1500 and p=2500 seeds."
+0,31,25,1073.15,2000.0,800.0,"Mid-pressure at high temperature and mid speed, between existing p=1500 and p=2500 seeds."
+0,31,26,1073.15,2000.0,1300.0,"Mid-pressure at high temperature and high speed, between existing p=1500 and p=2500 seeds."
+0,31,27,1073.15,2750.0,400.0,Between p=2500 and p=3000 at high temperature and low speed.
+0,32,0,773.15,2000.0,400.0,"Mid-pressure at low temperature and low speed, between existing p=1500 and p=2500 seeds."
+0,32,1,773.15,2000.0,800.0,"Mid-pressure at low temperature and mid speed, between existing p=1500 and p=2500 seeds."
+0,32,2,773.15,2000.0,1300.0,"Mid-pressure at low temperature and high speed, between existing p=1500 and p=2500 seeds."
+0,32,3,773.15,2750.0,400.0,Mid-pressure between p=2500 and p=3000 at low temperature and low speed.
+0,32,4,773.15,2750.0,800.0,Mid-pressure between p=2500 and p=3000 at low temperature and mid speed.
+0,32,5,773.15,2750.0,1300.0,Mid-pressure between p=2500 and p=3000 at low temperature and high speed.
+0,32,6,848.15,1500.0,400.0,Mid-temperature between 773.15 and 923.15 at low pressure and low speed.
+0,32,7,848.15,1500.0,800.0,Mid-temperature between 773.15 and 923.15 at low pressure and mid speed.
+0,32,8,848.15,1500.0,1300.0,Mid-temperature between 773.15 and 923.15 at low pressure and high speed.
+0,32,9,848.15,2500.0,400.0,Mid-temperature between 773.15 and 923.15 at mid pressure and low speed.
+0,32,10,848.15,2500.0,800.0,Mid-temperature between 773.15 and 923.15 at mid pressure and mid speed.
+0,32,11,848.15,2500.0,1300.0,Mid-temperature between 773.15 and 923.15 at mid pressure and high speed.
+0,32,12,848.15,3000.0,400.0,Mid-temperature between 773.15 and 923.15 at high pressure and low speed.
+0,32,13,848.15,3000.0,800.0,Mid-temperature between 773.15 and 923.15 at high pressure and mid speed.
+0,32,14,848.15,3000.0,1300.0,Mid-temperature between 773.15 and 923.15 at high pressure and high speed.
+0,32,15,998.15,1500.0,400.0,Mid-temperature between 923.15 and 1073.15 at low pressure and low speed.
+0,32,16,998.15,1500.0,800.0,Mid-temperature between 923.15 and 1073.15 at low pressure and mid speed.
+0,32,17,998.15,1500.0,1300.0,Mid-temperature between 923.15 and 1073.15 at low pressure and high speed.
+0,32,18,998.15,2500.0,400.0,Mid-temperature between 923.15 and 1073.15 at mid pressure and low speed.
+0,32,19,998.15,2500.0,800.0,Mid-temperature between 923.15 and 1073.15 at mid pressure and mid speed.
+0,32,20,998.15,2500.0,1300.0,Mid-temperature between 923.15 and 1073.15 at mid pressure and high speed.
+0,32,21,998.15,3000.0,400.0,Mid-temperature between 923.15 and 1073.15 at high pressure and low speed.
+0,32,22,998.15,3000.0,800.0,Mid-temperature between 923.15 and 1073.15 at high pressure and mid speed.
+0,32,23,998.15,3000.0,1300.0,Mid-temperature between 923.15 and 1073.15 at high pressure and high speed.
+0,32,24,923.15,2000.0,400.0,"Mid-pressure at mid temperature and low speed, between existing p=1500 and p=2500 seeds."
+0,32,25,923.15,2000.0,800.0,"Mid-pressure at mid temperature and mid speed, between existing p=1500 and p=2500 seeds."
+0,32,26,923.15,2000.0,1300.0,"Mid-pressure at mid temperature and high speed, between existing p=1500 and p=2500 seeds."
+0,32,27,1073.15,2000.0,400.0,"Mid-pressure at high temperature and low speed, between existing p=1500 and p=2500 seeds."
+0,33,0,773.15,2000.0,600.0,"Midpoint between pressure levels 1500 and 2500 at low temperature and mid speed, filling a gap in the sparse low-temperature region."
+0,33,1,773.15,2750.0,1050.0,"Interior point between pressure 2500 and 3000 and speed 800 and 1300 at low temperature, capturing curvature."
+0,33,2,773.15,2250.0,400.0,"Between pressure 1500 and 2500 at low speed and low temperature, where no seed exists."
+0,33,3,848.15,1500.0,400.0,"Midway between temperature 773 and 923 at lowest pressure and speed, filling a large gap."
+0,33,4,848.15,2000.0,850.0,"Central point in the low-to-mid temperature range, off the seed grid, to capture interactions."
+0,33,5,848.15,3000.0,1300.0,"High pressure, high speed, mid temperature, where the surface may bend due to flow losses."
+0,33,6,923.15,2000.0,600.0,Midpoint between pressure 1500 and 2500 at mid temperature and low-mid speed.
+0,33,7,923.15,2750.0,1050.0,Interior point between pressure 2500 and 3000 and speed 800 and 1300 at mid temperature.
+0,33,8,923.15,2250.0,400.0,Between pressure 1500 and 2500 at low speed and mid temperature.
+0,33,9,998.15,1500.0,400.0,Midway between temperature 923 and 1073 at lowest pressure and speed.
+0,33,10,998.15,2000.0,850.0,"Central point in the mid-to-high temperature range, off the seed grid."
+0,33,11,998.15,3000.0,1300.0,"High pressure, high speed, mid-high temperature, capturing potential nonlinearity."
+0,33,12,1073.15,2000.0,600.0,Midpoint between pressure 1500 and 2500 at high temperature and low-mid speed.
+0,33,13,1073.15,2750.0,1050.0,Interior point between pressure 2500 and 3000 and speed 800 and 1300 at high temperature.
+0,33,14,1073.15,2250.0,400.0,Between pressure 1500 and 2500 at low speed and high temperature.
+0,33,15,823.15,1750.0,500.0,"Off-grid point in the low-temperature, low-pressure, low-speed corner, where seeds are sparse."
+0,33,16,873.15,2750.0,1150.0,"Interior point in the mid-temperature, high-pressure, high-speed region, away from seed levels."
+0,33,17,948.15,1750.0,700.0,"Mid-temperature, low-pressure, mid-speed point, filling a gap between seed grid lines."
+0,33,18,1023.15,2750.0,950.0,"Near rated temperature, high pressure, mid-high speed, capturing behavior near the rated condition."
+0,33,19,798.15,2500.0,1100.0,"Low-temperature, mid-pressure, high-speed point, where the surface may show stronger speed dependence."
+0,33,20,898.15,2250.0,450.0,"Mid-temperature, mid-pressure, low-speed point, off the seed grid."
+0,33,21,973.15,1750.0,1250.0,"Mid-high temperature, low pressure, high speed, exploring the corner where losses may dominate."
+0,33,22,1048.15,2250.0,550.0,"High temperature, mid pressure, low-mid speed, filling a gap near the upper temperature bound."
+0,33,23,823.15,3000.0,700.0,"Low temperature, high pressure, mid speed, where pressure effect may be strong."
+0,33,24,898.15,1500.0,1000.0,"Mid temperature, low pressure, high speed, capturing speed dependence at low pressure."
+0,33,25,973.15,3000.0,500.0,"Mid-high temperature, high pressure, low speed, exploring high-pressure low-speed region."
+0,33,26,1048.15,1500.0,900.0,"High temperature, low pressure, mid-high speed, filling a gap near the upper temperature and lower pressure."
+0,33,27,848.15,2500.0,1200.0,"Mid temperature, mid pressure, high speed, off the seed grid, capturing interactions."
+0,34,0,848.15,2000.0,850.0,"Midpoint between Ts=773 and 923, p=1500 and 2500, N=400 and 1300; sparse region with likely nonlinear interaction."
+0,34,1,848.15,2750.0,600.0,"Between p=2500 and 3000, N=400 and 800 at intermediate Ts; fills gap in high-pressure low-speed region."
+0,34,2,998.15,1750.0,1100.0,"Between Ts=923 and 1073, p=1500 and 2500, N=800 and 1300; captures curvature in mid-range."
+0,34,3,998.15,2250.0,500.0,"Interior point at intermediate Ts and p, low N; sparse and likely high efficiency region."
+0,34,4,773.15,2000.0,1050.0,"Between existing p=1500 and 2500 at lowest Ts, N between 800 and 1300; fills gap."
+0,34,5,773.15,2750.0,600.0,"Between p=2500 and 3000 at lowest Ts, N between 400 and 800; explores high-pressure low-speed at low Ts."
+0,34,6,923.15,2000.0,1050.0,"Midpoint p between 1500 and 2500, N between 800 and 1300 at middle Ts; fills gap."
+0,34,7,923.15,2750.0,600.0,"Between p=2500 and 3000, N=400 and 800 at middle Ts; sparse high-pressure low-speed."
+0,34,8,1073.15,2000.0,1050.0,"Between p=1500 and 2500, N=800 and 1300 at highest Ts; fills gap."
+0,34,9,1073.15,2750.0,600.0,"Between p=2500 and 3000, N=400 and 800 at highest Ts; explores high-pressure low-speed."
+0,34,10,848.15,1500.0,600.0,Between N=400 and 800 at intermediate Ts and low p; fills gap.
+0,34,11,848.15,2500.0,1050.0,Between N=800 and 1300 at intermediate Ts and p=2500; fills gap.
+0,34,12,998.15,1500.0,600.0,Between N=400 and 800 at intermediate Ts and low p; fills gap.
+0,34,13,998.15,2500.0,1050.0,Between N=800 and 1300 at intermediate Ts and p=2500; fills gap.
+0,34,14,848.15,3000.0,1050.0,Between N=800 and 1300 at intermediate Ts and high p; fills gap.
+0,34,15,998.15,3000.0,600.0,Between N=400 and 800 at intermediate Ts and high p; fills gap.
+0,34,16,773.15,2250.0,850.0,"Interior point at low Ts, mid p and N; sparse."
+0,34,17,923.15,2250.0,850.0,"Interior point at middle Ts, mid p and N; sparse."
+0,34,18,1073.15,2250.0,850.0,"Interior point at high Ts, mid p and N; sparse."
+0,34,19,848.15,1750.0,1100.0,"Between p=1500 and 2000, N=800 and 1300 at intermediate Ts; fills gap."
+0,34,20,848.15,2250.0,500.0,"Between p=2000 and 2500, N=400 and 800 at intermediate Ts; fills gap."
+0,34,21,998.15,1750.0,500.0,"Between p=1500 and 2000, N=400 and 800 at intermediate Ts; fills gap."
+0,34,22,998.15,2250.0,1100.0,"Between p=2000 and 2500, N=800 and 1300 at intermediate Ts; fills gap."
+0,34,23,848.15,2750.0,850.0,"Between p=2500 and 3000, N=800 at intermediate Ts; fills gap."
+0,34,24,998.15,2750.0,850.0,"Between p=2500 and 3000, N=800 at intermediate Ts; fills gap."
+0,34,25,773.15,1750.0,1100.0,"Between p=1500 and 2000, N=800 and 1300 at low Ts; fills gap."
+0,34,26,1073.15,1750.0,500.0,"Between p=1500 and 2000, N=400 and 800 at high Ts; fills gap."
+0,34,27,923.15,1750.0,1100.0,"Between p=1500 and 2000, N=800 and 1300 at middle Ts; fills gap."
+0,35,0,773.15,2000.0,400.0,"Mid-pressure at low temperature and low speed, between existing p=1500 and p=2500 seeds."
+0,35,1,773.15,2000.0,800.0,"Mid-pressure at low temperature and mid speed, between existing p=1500 and p=2500 seeds."
+0,35,2,773.15,2000.0,1300.0,"Mid-pressure at low temperature and high speed, between existing p=1500 and p=2500 seeds."
+0,35,3,773.15,2750.0,400.0,Between p=2500 and p=3000 at low temperature and low speed.
+0,35,4,773.15,2750.0,800.0,Between p=2500 and p=3000 at low temperature and mid speed.
+0,35,5,773.15,2750.0,1300.0,Between p=2500 and p=3000 at low temperature and high speed.
+0,35,6,848.15,1500.0,400.0,Mid-temperature between 773.15 and 923.15 at low pressure and low speed.
+0,35,7,848.15,1500.0,800.0,Mid-temperature between 773.15 and 923.15 at low pressure and mid speed.
+0,35,8,848.15,1500.0,1300.0,Mid-temperature between 773.15 and 923.15 at low pressure and high speed.
+0,35,9,848.15,2500.0,400.0,Mid-temperature between 773.15 and 923.15 at mid pressure and low speed.
+0,35,10,848.15,2500.0,800.0,Mid-temperature between 773.15 and 923.15 at mid pressure and mid speed.
+0,35,11,848.15,2500.0,1300.0,Mid-temperature between 773.15 and 923.15 at mid pressure and high speed.
+0,35,12,848.15,3000.0,400.0,Mid-temperature between 773.15 and 923.15 at high pressure and low speed.
+0,35,13,848.15,3000.0,800.0,Mid-temperature between 773.15 and 923.15 at high pressure and mid speed.
+0,35,14,848.15,3000.0,1300.0,Mid-temperature between 773.15 and 923.15 at high pressure and high speed.
+0,35,15,998.15,1500.0,400.0,Mid-temperature between 923.15 and 1073.15 at low pressure and low speed.
+0,35,16,998.15,1500.0,800.0,Mid-temperature between 923.15 and 1073.15 at low pressure and mid speed.
+0,35,17,998.15,1500.0,1300.0,Mid-temperature between 923.15 and 1073.15 at low pressure and high speed.
+0,35,18,998.15,2500.0,400.0,Mid-temperature between 923.15 and 1073.15 at mid pressure and low speed.
+0,35,19,998.15,2500.0,800.0,Mid-temperature between 923.15 and 1073.15 at mid pressure and mid speed.
+0,35,20,998.15,2500.0,1300.0,Mid-temperature between 923.15 and 1073.15 at mid pressure and high speed.
+0,35,21,998.15,3000.0,400.0,Mid-temperature between 923.15 and 1073.15 at high pressure and low speed.
+0,35,22,998.15,3000.0,800.0,Mid-temperature between 923.15 and 1073.15 at high pressure and mid speed.
+0,35,23,998.15,3000.0,1300.0,Mid-temperature between 923.15 and 1073.15 at high pressure and high speed.
+0,35,24,923.15,2000.0,400.0,"Mid-pressure at mid temperature and low speed, between existing p=1500 and p=2500 seeds."
+0,35,25,923.15,2000.0,800.0,"Mid-pressure at mid temperature and mid speed, between existing p=1500 and p=2500 seeds."
+0,35,26,923.15,2000.0,1300.0,"Mid-pressure at mid temperature and high speed, between existing p=1500 and p=2500 seeds."
+0,35,27,1073.15,2000.0,400.0,"Mid-pressure at high temperature and low speed, between existing p=1500 and p=2500 seeds."
+0,36,0,823.15,2000.0,600.0,"Midpoint between seed levels in Ts and p, low N to capture curvature."
+0,36,1,823.15,2000.0,1000.0,"Same Ts and p, higher N to explore speed effect."
+0,36,2,823.15,2750.0,600.0,"High p, mid Ts, low N."
+0,36,3,823.15,2750.0,1000.0,"High p, mid Ts, higher N."
+0,36,4,973.15,2000.0,600.0,"Mid Ts between 923 and 1073, mid p, low N."
+0,36,5,973.15,2000.0,1000.0,"Same Ts and p, higher N."
+0,36,6,973.15,2750.0,600.0,"High p, mid-high Ts, low N."
+0,36,7,973.15,2750.0,1000.0,"High p, mid-high Ts, higher N."
+0,36,8,873.15,1750.0,500.0,"Off-grid p and N, low Ts region."
+0,36,9,873.15,2250.0,700.0,"Off-grid p and N, mid Ts."
+0,36,10,873.15,2500.0,900.0,"Off-grid p and N, mid Ts."
+0,36,11,873.15,1750.0,1100.0,"Off-grid p and N, low Ts, high N."
+0,36,12,1023.15,1750.0,500.0,"Near rated Ts, off-grid p and N."
+0,36,13,1023.15,2250.0,700.0,"Near rated Ts, off-grid p and N."
+0,36,14,1023.15,2500.0,900.0,"Near rated Ts, off-grid p and N."
+0,36,15,1023.15,1750.0,1100.0,"Near rated Ts, off-grid p and N, high N."
+0,36,16,798.15,1875.0,450.0,"Low Ts, low p, very low N."
+0,36,17,798.15,2625.0,750.0,"Low Ts, high p, mid N."
+0,36,18,898.15,1875.0,850.0,"Mid Ts, low p, mid-high N."
+0,36,19,898.15,2625.0,550.0,"Mid Ts, high p, low N."
+0,36,20,998.15,1875.0,650.0,"High Ts, low p, mid-low N."
+0,36,21,998.15,2625.0,950.0,"High Ts, high p, mid-high N."
+0,36,22,848.15,2125.0,800.0,"Central region, off-grid p, mid N."
+0,36,23,948.15,2125.0,800.0,"Central region, off-grid p, mid N."
+0,36,24,1048.15,2125.0,800.0,"High Ts, off-grid p, mid N."
+0,36,25,848.15,2875.0,800.0,"Mid Ts, very high p, mid N."
+0,36,26,948.15,2875.0,800.0,"Mid-high Ts, very high p, mid N."
+0,36,27,1048.15,2875.0,800.0,"High Ts, very high p, mid N."
+0,37,0,773.15,2000.0,600.0,"Midpoint between pressure levels 1500 and 2500 at low temperature and mid speed, filling a gap in the sparse low-temperature region."
+0,37,1,773.15,2750.0,1050.0,"Interior point between pressure 2500 and 3000 and speed 800 and 1300 at low temperature, capturing curvature in power and efficiency."
+0,37,2,773.15,2250.0,400.0,"Low speed, intermediate pressure at low temperature; seed data at 400 rpm only for 1500, 2500, 3000 kPa, so this fills a gap."
+0,37,3,773.15,1750.0,1300.0,"High speed, low-intermediate pressure at low temperature; seed data at 1300 rpm only for 1500, 2500, 3000 kPa."
+0,37,4,848.15,1500.0,400.0,Mid temperature between 773 and 923 at low pressure and low speed; no seeds at this temperature.
+0,37,5,848.15,1500.0,800.0,Mid temperature at low pressure and mid speed; fills gap between temperature levels.
+0,37,6,848.15,1500.0,1300.0,Mid temperature at low pressure and high speed; completes low-pressure mid-temperature slice.
+0,37,7,848.15,2500.0,400.0,Mid temperature at medium pressure and low speed; no seeds at this temperature.
+0,37,8,848.15,2500.0,800.0,Mid temperature at medium pressure and mid speed; fills gap.
+0,37,9,848.15,2500.0,1300.0,Mid temperature at medium pressure and high speed; fills gap.
+0,37,10,848.15,3000.0,400.0,Mid temperature at high pressure and low speed; no seeds at this temperature.
+0,37,11,848.15,3000.0,800.0,Mid temperature at high pressure and mid speed; fills gap.
+0,37,12,848.15,3000.0,1300.0,Mid temperature at high pressure and high speed; fills gap.
+0,37,13,923.15,2000.0,600.0,"Midpoint between pressure levels at mid temperature and mid speed, filling a gap."
+0,37,14,923.15,2750.0,1050.0,Interior point between pressure 2500 and 3000 and speed 800 and 1300 at mid temperature.
+0,37,15,923.15,2250.0,400.0,"Low speed, intermediate pressure at mid temperature; seed data at 400 rpm only for 1500, 2500, 3000 kPa."
+0,37,16,923.15,1750.0,1300.0,"High speed, low-intermediate pressure at mid temperature; seed data at 1300 rpm only for 1500, 2500, 3000 kPa."
+0,37,17,998.15,1500.0,400.0,Mid temperature between 923 and 1073 at low pressure and low speed; no seeds at this temperature.
+0,37,18,998.15,1500.0,800.0,Mid temperature at low pressure and mid speed; fills gap.
+0,37,19,998.15,1500.0,1300.0,Mid temperature at low pressure and high speed; fills gap.
+0,37,20,998.15,2500.0,400.0,Mid temperature at medium pressure and low speed; no seeds at this temperature.
+0,37,21,998.15,2500.0,800.0,Mid temperature at medium pressure and mid speed; fills gap.
+0,37,22,998.15,2500.0,1300.0,Mid temperature at medium pressure and high speed; fills gap.
+0,37,23,998.15,3000.0,400.0,Mid temperature at high pressure and low speed; no seeds at this temperature.
+0,37,24,998.15,3000.0,800.0,Mid temperature at high pressure and mid speed; fills gap.
+0,37,25,998.15,3000.0,1300.0,Mid temperature at high pressure and high speed; fills gap.
+0,37,26,1073.15,2000.0,600.0,"Midpoint between pressure levels at high temperature and mid speed, filling a gap."
+0,37,27,1073.15,2750.0,1050.0,Interior point between pressure 2500 and 3000 and speed 800 and 1300 at high temperature.
+0,38,0,773.15,2000.0,400.0,"Mid-pressure at low temperature and low speed, between existing p=1500 and p=2500 seeds."
+0,38,1,773.15,2000.0,800.0,"Mid-pressure at low temperature and mid speed, between existing p=1500 and p=2500 seeds."
+0,38,2,773.15,2000.0,1300.0,"Mid-pressure at low temperature and high speed, between existing p=1500 and p=2500 seeds."
+0,38,3,773.15,2750.0,400.0,Between p=2500 and p=3000 at low temperature and low speed.
+0,38,4,773.15,2750.0,800.0,Between p=2500 and p=3000 at low temperature and mid speed.
+0,38,5,773.15,2750.0,1300.0,Between p=2500 and p=3000 at low temperature and high speed.
+0,38,6,848.15,1500.0,400.0,Mid-temperature between 773 and 923 K at low pressure and low speed.
+0,38,7,848.15,1500.0,800.0,Mid-temperature between 773 and 923 K at low pressure and mid speed.
+0,38,8,848.15,1500.0,1300.0,Mid-temperature between 773 and 923 K at low pressure and high speed.
+0,38,9,848.15,2500.0,400.0,Mid-temperature between 773 and 923 K at mid pressure and low speed.
+0,38,10,848.15,2500.0,800.0,Mid-temperature between 773 and 923 K at mid pressure and mid speed.
+0,38,11,848.15,2500.0,1300.0,Mid-temperature between 773 and 923 K at mid pressure and high speed.
+0,38,12,848.15,3000.0,400.0,Mid-temperature between 773 and 923 K at high pressure and low speed.
+0,38,13,848.15,3000.0,800.0,Mid-temperature between 773 and 923 K at high pressure and mid speed.
+0,38,14,848.15,3000.0,1300.0,Mid-temperature between 773 and 923 K at high pressure and high speed.
+0,38,15,998.15,1500.0,400.0,Mid-temperature between 923 and 1073 K at low pressure and low speed.
+0,38,16,998.15,1500.0,800.0,Mid-temperature between 923 and 1073 K at low pressure and mid speed.
+0,38,17,998.15,1500.0,1300.0,Mid-temperature between 923 and 1073 K at low pressure and high speed.
+0,38,18,998.15,2500.0,400.0,Mid-temperature between 923 and 1073 K at mid pressure and low speed.
+0,38,19,998.15,2500.0,800.0,Mid-temperature between 923 and 1073 K at mid pressure and mid speed.
+0,38,20,998.15,2500.0,1300.0,Mid-temperature between 923 and 1073 K at mid pressure and high speed.
+0,38,21,998.15,3000.0,400.0,Mid-temperature between 923 and 1073 K at high pressure and low speed.
+0,38,22,998.15,3000.0,800.0,Mid-temperature between 923 and 1073 K at high pressure and mid speed.
+0,38,23,998.15,3000.0,1300.0,Mid-temperature between 923 and 1073 K at high pressure and high speed.
+0,38,24,1073.15,2000.0,400.0,"Mid-pressure at high temperature and low speed, between existing p=1500 and p=2500 seeds."
+0,38,25,1073.15,2000.0,800.0,"Mid-pressure at high temperature and mid speed, between existing p=1500 and p=2500 seeds."
+0,38,26,1073.15,2000.0,1300.0,"Mid-pressure at high temperature and high speed, between existing p=1500 and p=2500 seeds."
+0,38,27,1073.15,2750.0,400.0,Between p=2500 and p=3000 at high temperature and low speed.
+0,39,0,773.15,2000.0,400.0,"Mid-pressure at low temperature and low speed, between existing p=1500 and p=2500 seeds."
+0,39,1,773.15,2000.0,800.0,"Mid-pressure at low temperature and mid speed, filling gap in p dimension."
+0,39,2,773.15,2000.0,1300.0,"Mid-pressure at low temperature and high speed, completing p interpolation at low Ts."
+0,39,3,773.15,2750.0,400.0,Between p=2500 and p=3000 at low Ts and low N.
+0,39,4,773.15,2750.0,800.0,Between p=2500 and p=3000 at low Ts and mid N.
+0,39,5,773.15,2750.0,1300.0,Between p=2500 and p=3000 at low Ts and high N.
+0,39,6,848.15,1500.0,400.0,Mid-temperature between 773 and 923 at low p and low N.
+0,39,7,848.15,1500.0,800.0,Mid-temperature at low p and mid N.
+0,39,8,848.15,1500.0,1300.0,Mid-temperature at low p and high N.
+0,39,9,848.15,2500.0,400.0,Mid-temperature at mid p and low N.
+0,39,10,848.15,2500.0,800.0,Mid-temperature at mid p and mid N.
+0,39,11,848.15,2500.0,1300.0,Mid-temperature at mid p and high N.
+0,39,12,848.15,3000.0,400.0,Mid-temperature at high p and low N.
+0,39,13,848.15,3000.0,800.0,Mid-temperature at high p and mid N.
+0,39,14,848.15,3000.0,1300.0,Mid-temperature at high p and high N.
+0,39,15,998.15,1500.0,400.0,Mid-temperature between 923 and 1073 at low p and low N.
+0,39,16,998.15,1500.0,800.0,Mid-temperature at low p and mid N.
+0,39,17,998.15,1500.0,1300.0,Mid-temperature at low p and high N.
+0,39,18,998.15,2500.0,400.0,Mid-temperature at mid p and low N.
+0,39,19,998.15,2500.0,800.0,Mid-temperature at mid p and mid N.
+0,39,20,998.15,2500.0,1300.0,Mid-temperature at mid p and high N.
+0,39,21,998.15,3000.0,400.0,Mid-temperature at high p and low N.
+0,39,22,998.15,3000.0,800.0,Mid-temperature at high p and mid N.
+0,39,23,998.15,3000.0,1300.0,Mid-temperature at high p and high N.
+0,39,24,1073.15,2000.0,400.0,"Mid-pressure at high temperature and low speed, between existing p=1500 and p=2500 seeds."
+0,39,25,1073.15,2000.0,800.0,Mid-pressure at high temperature and mid speed.
+0,39,26,1073.15,2000.0,1300.0,Mid-pressure at high temperature and high speed.
+0,39,27,1073.15,2750.0,400.0,Between p=2500 and p=3000 at high Ts and low N.
