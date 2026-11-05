@@ -18,7 +18,8 @@ Tag: **`r1-ds`**.
 | Prompts | `records/ds/prompts/` |
 | Seed ledger (`s = 7 + 1000r + i`) | `records/ds/seed_ledger.csv` |
 | Selected batches and acquisition scores | `results/r1_proposer/r1_pool_revised_selected.csv`, `main_pipeline_batch.csv` |
-| Annual synthetic series | `data/annual_hourly_inputs.csv` |
+| Annual campus series (public-release construction) | `data/annual_hourly_inputs.csv`, `data/public_campus/` |
+| Public campus builder | `code/yanmar/public_campus_profiles.py` |
 | Scripts for Tables IV–VIII and Figs. 6–17 | `code/yanmar/r1_*.py` |
 
 The language model is a proposer only. It never writes power or efficiency labels. Every numerical label used in Tables IV–VIII comes from the RK4 solver.

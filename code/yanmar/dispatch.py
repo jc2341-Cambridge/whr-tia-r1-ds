@@ -373,6 +373,28 @@ def _campus_pv_kw(
     return np.clip(pv * scale, 0.0, CASE.pv_ac_peak_kw)
 
 
+def campus_whr_profiles(n_hours: int = 24 * 365, random_state: int = 11) -> pd.DataFrame:
+    """Default campus series: named public releases (UKPN / Estates / PVGIS / …).
+
+    Falls back to ``synthetic_whr_profiles`` only if public fetch/cache fails.
+    ``n_hours`` other than 8760 and ``random_state`` apply only to the synthetic fallback.
+    """
+    if n_hours == 24 * 365:
+        try:
+            from .public_campus_profiles import public_whr_profiles
+
+            return public_whr_profiles()
+        except Exception as exc:  # noqa: BLE001 — keep pipeline runnable offline
+            import warnings
+
+            warnings.warn(
+                f"public_whr_profiles failed ({exc!r}); falling back to synthetic_whr_profiles",
+                RuntimeWarning,
+                stacklevel=2,
+            )
+    return synthetic_whr_profiles(n_hours=n_hours, random_state=random_state)
+
+
 def synthetic_whr_profiles(n_hours: int = 24 * 365, random_state: int = 11) -> pd.DataFrame:
     rng = np.random.default_rng(random_state)
     hour = np.arange(n_hours, dtype=float)
@@ -426,7 +448,7 @@ def synthetic_whr_profiles(n_hours: int = 24 * 365, random_state: int = 11) -> p
 
 
 def synthetic_whr_daily_profiles(n_days: int = 365, random_state: int = 17) -> pd.DataFrame:
-    hourly = synthetic_whr_profiles(n_hours=n_days * 24, random_state=random_state)
+    hourly = campus_whr_profiles(n_hours=n_days * 24, random_state=random_state)
     midday = hourly[hourly["hour_of_day"] == 12].copy().reset_index(drop=True)
     midday["day"] = np.arange(n_days)
     midday["hour"] = midday["day"] * 24 + 12

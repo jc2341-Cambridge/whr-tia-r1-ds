@@ -30,7 +30,7 @@ import pandas as pd
 from data_loader import FEATURE_COLUMNS
 
 from .dataset import YANMAR_ROOT
-from .dispatch import CASE, synthetic_whr_profiles
+from .dispatch import CASE, campus_whr_profiles
 from .engine_specs import YANMAR
 
 RESULT_DIR = YANMAR_ROOT / "results" / "r1_dispatch"
@@ -103,7 +103,7 @@ class OracleModel:
 
 
 def dispatch_profiles() -> pd.DataFrame:
-    prof = synthetic_whr_profiles()
+    prof = campus_whr_profiles()
     ts = np.clip(prof["source_temperature"].to_numpy(float), TS_GRID[0], TS_GRID[-1])
     prof["ts_idx"] = np.rint(ts - TS_GRID[0]).astype(int)
     avail = prof["heat_index"].to_numpy(float) * (~prof["stirling_outage"].to_numpy(bool))

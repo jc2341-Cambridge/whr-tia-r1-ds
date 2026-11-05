@@ -1,0 +1,11 @@
+{
+  "source": "PVGIS v5.3 seriescalc",
+  "lat": 52.205,
+  "lon": 0.119,
+  "year": 2019,
+  "peakpower_kwp": 1,
+  "loss_pct": 14,
+  "angle_deg": 35,
+  "aspect": 0,
+  "url": "https://re.jrc.ec.europa.eu/api/v5_3/seriescalc?lat=52.205&lon=0.119&startyear=2019&endyear=2019&pvcalculation=1&peakpower=1&loss=14&angle=35&aspect=0&outputformat=json"
+}
